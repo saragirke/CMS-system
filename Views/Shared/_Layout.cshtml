@@ -1,53 +1,157 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - cmsSystem</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+   <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> 
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/cmsSystem.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+   <script src="~/js/tinymce/tinymce.min.js" referrerpolicy="origin"></script>
+
+<!-- Color picker -->
+     <link rel="stylesheet" href="https://cdn.syncfusion.com/ej2/21.1.35/fluent.css" />
+     <script src="https://cdn.syncfusion.com/ej2/21.1.35/dist/ej2.min.js"></script>
 </head>
+
+
+  @if (SignInManager.IsSignedIn(User))
+{
+ <div class="topnav">
+       <!-- <a class="hello" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a> -->
+        
+        <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+            <button class="logout" type="submit">Logga ut</button>
+        </form>
+  <a asp-area="Identity" asp-page="/Account/Register">Nytt konto</a>
+
+  <a asp-area="" asp-controller="Comment" asp-action="Index"> <i class="fa fa-comment" aria-hidden="true"></i> Kommentarer </a>
+  <a asp-area="" asp-controller="Message" asp-action="Index"> <i class="fa fa-envelope"></i> Meddelanden </a>
+  <a asp-area="" asp-controller="News" asp-action="Index"> <i class="fa fa-bolt" ></i> Nyheter </a>
+  
+
+  <div class="subnav">
+    <button class="subnavbtn"><i class="fas fa-cogs"></i> Min webbplats <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a asp-area="" asp-controller="Header" asp-action="Index">Header</a> 
+      <a asp-area="" asp-controller="Footer" asp-action="Index">Footer </a> 
+      <a asp-area="" asp-controller="About" asp-action="Index">Startsida</a>
+      <a asp-area="" asp-controller="About" asp-action="Index">Om Oss</a>
+      <a asp-area="" asp-controller="Widget" asp-action="Index">Widget </a>
+     
+    </div>
+  </div>
+<a asp-area="" asp-controller="Home" asp-action="Index"><i class="fa fa-home"></i>Hem</a>
+  </div>
+}
+else
+{
+   <div class="topnav">
+  <a asp-area="Identity" asp-page="/Account/Login"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</a>
+ </div>
+
+}
+
+</div> 
+
+
+<div class="menu-btn">
+     <i class="fas fa-bars"></i>
+   </div>
+
+
+   <div class="side-bar">
+     <div class="close-btn">
+
+       <i class="fas fa-times"></i>
+     </div>
+     <img class="navpic" src="https://lh3.googleusercontent.com/a-/AOh14Gj99VObFyE8W_h8RrcwZO_aYiIHu5AAa_XpnOym=s600-k-no-rp-mo" alt="">
+          <h1></h1>
+     
+     <div class="menu">
+       @if (SignInManager.IsSignedIn(User)) {
+       <div class="item"><a href="#"><i class="fa fa-home"></i>Hem</a></div>
+
+       <div class="item"><a asp-area="" asp-controller="Comment" asp-action="Index"><i class="fa fa-comment" aria-hidden="true"></i>Kommentarer</a></div>
+
+       <div class="item"><a asp-area="" asp-controller="Message" asp-action="Index"><i class="fa fa-envelope"></i>Meddelanden</a></div>
+
+        <div class="item"><a asp-area="" asp-controller="News" asp-action="Index"><i class="fa fa-bolt" ></i>Nyheter</a></div>
+
+              <div class="item">
+         <a class="sub-btn"><i class="fas fa-cogs"></i>Min webbplats<i class="fas fa-angle-right dropdown"></i></a>
+         <div class="sub-menu">
+           <a asp-area="" asp-controller="Header" asp-action="Index">Header </a>
+           <a asp-area="" asp-controller="Footer" asp-action="Index">Footer </a>
+           <a href="#" class="sub-item">Startsida</a>
+           <a asp-area="" asp-controller="About" asp-action="Index">Om Oss</a>
+           <a asp-area="" asp-controller="Service" asp-action="Index">Header </a>
+           <a asp-area="" asp-controller="Widget" asp-action="Index">Widget </a>
+         </div>
+       </div>
+        <div class="item">
+          <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+            <button class="logoutmob" type="submit">Logga ut</button>
+        </form></div>
+       }else {
+        <div class="item">
+         <a asp-area="Identity" asp-page="/Account/Login"><i class="fa fa-sign-in" aria-hidden="true"></i>Logga in</a>
+         </div>
+       }
+     </div>
+   </div>
+       
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">cmsSystem</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="News" asp-action="Index">Nyheter</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Design" asp-action="Index">Design</a>
-                        </li>
-                    </ul>
-                    <partial name="_LoginPartial" />
-                </div>
-            </div>
-        </nav>
-    </header>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
+    <footer>
+      
             &copy; 2023 - cmsSystem - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
+
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+ <script type="text/javascript">
+   $(document).ready(function(){
+     //jquery for toggle sub menus
+     $('.sub-btn').click(function(){
+       $(this).next('.sub-menu').slideToggle();
+       $(this).find('.dropdown').toggleClass('rotate');
+     });
+
+     //jquery for expand and collapse the sidebar
+     $('.menu-btn').click(function(){
+       $('.side-bar').addClass('active');
+       $('.menu-btn').css("visibility", "hidden");
+     });
+
+     $('.close-btn').click(function(){
+       $('.side-bar').removeClass('active');
+       $('.menu-btn').css("visibility", "visible");
+     });
+   });
+   </script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

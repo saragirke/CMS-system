@@ -7,16 +7,26 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using cmsSystem.Data;
 using cmsSystem.Models;
+using LazZiya.ImageResize; // Bilder
+using System.Drawing; // Bilder
 
 namespace cmsSystem.Controllers
 {
     public class NewsController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly IWebHostEnvironment _hostEnvironment;
+        private string wwwRootPath;
 
-        public NewsController(ApplicationDbContext context)
+                //Bilder
+        private int ImageWidth= 640;
+        private int ImageHeigth=420;
+
+        public NewsController(ApplicationDbContext context, IWebHostEnvironment hostEnvironment)
         {
             _context = context;
+             _hostEnvironment = hostEnvironment;
+            wwwRootPath = _hostEnvironment.WebRootPath;
         }
 
         // GET: News
@@ -54,12 +64,44 @@ namespace cmsSystem.Controllers
         // POST: News/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+       
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,Post,ImageName,AltText,DateCreated")] News news)
+        public async Task<IActionResult> Create([Bind("Id,Title,Post,ImageFile,AltText,DateCreated")] News news)
         {
             if (ModelState.IsValid)
             {
+
+                    if (news.ImageFile != null) {
+
+                    //Spara bilder till wwwroot
+                    string fileName = Path.GetFileNameWithoutExtension(news.ImageFile.FileName);
+                    string extension = Path.GetExtension(news.ImageFile.FileName);
+
+                    //Plockar bort mellanslag i filnam + lägger till timestamp
+                    news.ImageName = fileName = fileName.Replace(" ", String.Empty) + DateTime.Now.ToString("yymmssfff") + extension;
+                    string path = Path.Combine(wwwRootPath + "/imageupload", fileName);
+
+                    //Lagra Fil
+                    using (var fileStream = new FileStream(path, FileMode.Create)) 
+                    {
+                        await news.ImageFile.CopyToAsync(fileStream);
+                    }
+
+                    //Funktion för att ange bildens storlek
+                    createImageFile(fileName);
+
+                }
+                else {
+                    news.ImageName = null;
+                }
+
+
+
+
+
+
+
                 _context.Add(news);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -159,5 +201,21 @@ namespace cmsSystem.Controllers
         {
           return (_context.News?.Any(e => e.Id == id)).GetValueOrDefault();
         }
+
+
+
+        //Funktion för bilder
+         
+         private void createImageFile(string fileName) {
+
+            using(var img = Image.FromFile(Path.Combine(wwwRootPath + "/imageupload/" , fileName))) {
+              
+               img.Scale(ImageWidth, ImageHeigth).SaveAs(Path.Combine(wwwRootPath + "/imageupload" + fileName)); 
+            } 
+
+
+         }
+
+
     }
 }

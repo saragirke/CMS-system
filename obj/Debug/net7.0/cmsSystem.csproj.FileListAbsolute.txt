@@ -306,3 +306,6 @@ C:\Users\maxor\cmsSystem\obj\Debug\net7.0\refint\cmsSystem.dll
 C:\Users\maxor\cmsSystem\obj\Debug\net7.0\cmsSystem.pdb
 C:\Users\maxor\cmsSystem\obj\Debug\net7.0\cmsSystem.genruntimeconfig.cache
 C:\Users\maxor\cmsSystem\obj\Debug\net7.0\ref\cmsSystem.dll
+C:\Users\maxor\cmsSystem\bin\Debug\net7.0\LazZiya.ImageResize.dll
+C:\Users\maxor\cmsSystem\bin\Debug\net7.0\LazZiya.TagHelpers.dll
+C:\Users\maxor\cmsSystem\bin\Debug\net7.0\Syncfusion.Licensing.dll

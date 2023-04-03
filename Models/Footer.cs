@@ -8,7 +8,7 @@ public class Footer {
 
     public int Id {get; set;}
 
-    [Display (Name = "Bakgrundsfärg på footer:")]
+    [Display (Name = "Bakgrundsfärg:")]
     public string? FooterColor {get; set;}
 
     [Display (Name = "Font-färg:")]

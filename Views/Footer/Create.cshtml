@@ -6,48 +6,60 @@
 
 <h1>Create</h1>
 
+
 <h4>Footer</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+
+
+
             <div class="form-group">
                 <label asp-for="FooterColor" class="control-label"></label>
-                <input asp-for="FooterColor" class="form-control" />
+                <input value="#3399FF80" data-jscolor="{}" asp-for="FooterColor" class="form-control" />
                 <span asp-validation-for="FooterColor" class="text-danger"></span>
-            </div>
+            </div> <br>
+
             <div class="form-group">
                 <label asp-for="FontColor" class="control-label"></label>
-                <input asp-for="FontColor" class="form-control" />
+                <input value="#3399FF80" data-jscolor="{}" asp-for="FontColor" class="form-control" />
                 <span asp-validation-for="FontColor" class="text-danger"></span>
-            </div>
+            </div> <br>
+
             <div class="form-group">
                 <label asp-for="FooterAdress" class="control-label"></label>
                 <input asp-for="FooterAdress" class="form-control" />
                 <span asp-validation-for="FooterAdress" class="text-danger"></span>
-            </div>
+            </div> <br>
+
             <div class="form-group">
                 <label asp-for="FooterPhone" class="control-label"></label>
                 <input asp-for="FooterPhone" class="form-control" />
                 <span asp-validation-for="FooterPhone" class="text-danger"></span>
-            </div>
+            </div> <br>
+
             <div class="form-group">
                 <label asp-for="FooterEmail" class="control-label"></label>
                 <input asp-for="FooterEmail" class="form-control" />
                 <span asp-validation-for="FooterEmail" class="text-danger"></span>
-            </div>
+            </div> <br>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Spara" class="btn btn-primary" />
             </div>
+            <br>
         </form>
     </div>
 </div>
-
+<br>
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Tillbaka</a>
 </div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+  
+    <script src="~/js/jscolor.js" asp-append-version="true"></script>
 }

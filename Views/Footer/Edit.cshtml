@@ -15,40 +15,41 @@
             <input type="hidden" asp-for="Id" />
             <div class="form-group">
                 <label asp-for="FooterColor" class="control-label"></label>
-                <input asp-for="FooterColor" class="form-control" />
+                <input asp-for="FooterColor" data-jscolor="{}" class="form-control" />
                 <span asp-validation-for="FooterColor" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="FontColor" class="control-label"></label>
-                <input asp-for="FontColor" class="form-control" />
+                <input asp-for="FontColor" data-jscolor="{}" class="form-control" />
                 <span asp-validation-for="FontColor" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="FooterAdress" class="control-label"></label>
                 <input asp-for="FooterAdress" class="form-control" />
                 <span asp-validation-for="FooterAdress" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="FooterPhone" class="control-label"></label>
                 <input asp-for="FooterPhone" class="form-control" />
                 <span asp-validation-for="FooterPhone" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
                 <label asp-for="FooterEmail" class="control-label"></label>
                 <input asp-for="FooterEmail" class="form-control" />
                 <span asp-validation-for="FooterEmail" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Spara" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
-
+<br>
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Tillbaka</a>
 </div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+     <script src="~/js/jscolor.js" asp-append-version="true"></script>
 }

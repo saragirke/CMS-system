@@ -59,6 +59,38 @@
           }
         }
       },
+      "LazZiya.ImageResize/4.1.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "5.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/LazZiya.ImageResize.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/LazZiya.ImageResize.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "LazZiya.TagHelpers/6.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/LazZiya.TagHelpers.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/LazZiya.TagHelpers.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/7.0.0": {
         "type": "package",
         "compile": {
@@ -2446,6 +2478,15 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Licensing/21.1.37": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Syncfusion.Licensing.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4078,6 +4119,49 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "LazZiya.ImageResize/4.1.4": {
+      "sha512": "/6Kexzt94MQtRXku8wFmwCrcS62hzHdZPyZGN7Qcrpg4jwQVzZjvv7ub/tM8SqE0hxPW62mW1yTSiSU6Ci7mmQ==",
+      "type": "package",
+      "path": "lazziya.imageresize/4.1.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.ico",
+        "icon.png",
+        "lazziya.imageresize.4.1.4.nupkg.sha512",
+        "lazziya.imageresize.nuspec",
+        "lib/netstandard2.0/LazZiya.ImageResize.dll",
+        "lib/netstandard2.0/LazZiya.ImageResize.xml",
+        "license.txt"
+      ]
+    },
+    "LazZiya.TagHelpers/6.0.2": {
+      "sha512": "qYWVS9Mx61jmYrI+iNhw6vyH5u4W/VsAy0aTeKplNDU63K2WVSI7RdvWKSXuti0kZn+iQGkwpHz820ukCTTpPQ==",
+      "type": "package",
+      "path": "lazziya.taghelpers/6.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lazziya.taghelpers.6.0.2.nupkg.sha512",
+        "lazziya.taghelpers.nuspec",
+        "lib/net5.0/LazZiya.TagHelpers.dll",
+        "lib/net5.0/LazZiya.TagHelpers.xml",
+        "lib/net6.0/LazZiya.TagHelpers.dll",
+        "lib/net6.0/LazZiya.TagHelpers.xml",
+        "lib/netcoreapp2.0/LazZiya.TagHelpers.dll",
+        "lib/netcoreapp2.0/LazZiya.TagHelpers.xml",
+        "lib/netcoreapp2.1/LazZiya.TagHelpers.dll",
+        "lib/netcoreapp2.1/LazZiya.TagHelpers.xml",
+        "lib/netcoreapp2.2/LazZiya.TagHelpers.dll",
+        "lib/netcoreapp2.2/LazZiya.TagHelpers.xml",
+        "lib/netcoreapp3.0/LazZiya.TagHelpers.dll",
+        "lib/netcoreapp3.0/LazZiya.TagHelpers.xml",
+        "lib/netcoreapp3.1/LazZiya.TagHelpers.dll",
+        "lib/netcoreapp3.1/LazZiya.TagHelpers.xml",
+        "license.txt"
       ]
     },
     "Microsoft.AspNetCore.Cryptography.Internal/7.0.0": {
@@ -7380,6 +7464,32 @@
         "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll",
         "sqlitepclraw.provider.e_sqlite3.2.1.4.nupkg.sha512",
         "sqlitepclraw.provider.e_sqlite3.nuspec"
+      ]
+    },
+    "Syncfusion.Licensing/21.1.37": {
+      "sha512": "bgg43Ocj2l8dv4Nd4nX1LNqCj5ZAezeOTI5ZBbszNGIajwlg5IXShoa+HkvnoWjbUBX+vNwWgWFdsBYdMOhtTQ==",
+      "type": "package",
+      "path": "syncfusion.licensing/21.1.37",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/net6.0-windows7.0/Syncfusion.Licensing.dll",
+        "lib/net6.0/Syncfusion.Licensing.dll",
+        "lib/net7.0-windows7.0/Syncfusion.Licensing.dll",
+        "lib/net7.0/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.21.1.37.nupkg.sha512",
+        "syncfusion.licensing.nuspec",
+        "syncfusion_logo.png"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -11369,6 +11479,8 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "LazZiya.ImageResize >= 4.1.4",
+      "LazZiya.TagHelpers >= 6.0.2",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 7.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.0",
       "Microsoft.AspNetCore.Identity.UI >= 7.0.0",
@@ -11376,7 +11488,8 @@
       "Microsoft.EntityFrameworkCOre.SqlServer >= 7.0.4",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.4",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.5"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.5",
+      "Syncfusion.Licensing >= 21.1.37"
     ]
   },
   "packageFolders": {
@@ -11424,6 +11537,14 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "LazZiya.ImageResize": {
+            "target": "Package",
+            "version": "[4.1.4, )"
+          },
+          "LazZiya.TagHelpers": {
+            "target": "Package",
+            "version": "[6.0.2, )"
+          },
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
             "version": "[7.0.0, )"
@@ -11457,6 +11578,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[7.0.5, )"
+          },
+          "Syncfusion.Licensing": {
+            "target": "Package",
+            "version": "[21.1.37, )"
           }
         },
         "imports": [

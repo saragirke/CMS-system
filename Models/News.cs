@@ -13,6 +13,7 @@ public class News {
     [Required(ErrorMessage = "Obligatoriskt fält")]
     public string? Title {get; set;}
 
+  
     [Display (Name = "Inlägg:")]
     [Required(ErrorMessage = "Obligatoriskt fält")]
     public string? Post {get; set;}

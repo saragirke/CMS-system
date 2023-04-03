@@ -13,7 +13,7 @@ public class Comment {
     [Required(ErrorMessage = "Obligatoriskt fält")]
     public string? CommentName {get; set;}
 
-    [Display (Name = "Inlägg:")]
+    [Display (Name = "Kommentar:")]
     [Required(ErrorMessage = "Obligatoriskt fält")]
     public string? CommentPost {get; set;}
 
