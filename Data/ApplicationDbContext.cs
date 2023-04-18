@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using cmsSystem.Models; //inkluderar modeller
 
@@ -18,4 +18,6 @@ public class ApplicationDbContext : IdentityDbContext
      public DbSet<Header> Header { get; set; }  = default!;
     public DbSet<Message> Message { get; set; }  = default!;
     public DbSet<Service> Service { get; set; }  = default!;
+    public DbSet<cmsSystem.Models.Start> Start { get; set; } = default!;
+    public DbSet<cmsSystem.Models.Widget> Widget { get; set; } = default!;
 }

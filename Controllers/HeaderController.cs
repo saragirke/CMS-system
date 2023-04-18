@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using cmsSystem.Data;
 using cmsSystem.Models;
+using LazZiya.ImageResize; // Bilder
+using System.Drawing; // Bilder
 
 namespace cmsSystem.Controllers
 {
@@ -14,9 +16,23 @@ namespace cmsSystem.Controllers
     {
         private readonly ApplicationDbContext _context;
 
-        public HeaderController(ApplicationDbContext context)
+         private readonly IWebHostEnvironment _hostEnvironment;
+
+           private string wwwRootPath;
+
+        //Bilder
+        private int HeaderWidth= 1920;
+        private int HeaderHeigth=600;
+
+                //Bilder
+        private int LogoWidth= 250;
+        private int LogoHeigth=100;
+
+        public HeaderController(ApplicationDbContext context, IWebHostEnvironment hostEnvironment)
         {
             _context = context;
+               _hostEnvironment = hostEnvironment;
+            wwwRootPath = _hostEnvironment.WebRootPath;
         }
 
         // GET: Header
@@ -56,10 +72,65 @@ namespace cmsSystem.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,Font,HeaderName,LogoName")] Header header)
+        public async Task<IActionResult> Create([Bind("Id,Title,Font, FontColor, NavColor, SubTitle, ImageFile,LogoFile")] Header header)
         {
             if (ModelState.IsValid)
             {
+
+                  if (header.ImageFile != null) {
+
+                    //Spara bilder till wwwroot
+                    string fileName = Path.GetFileNameWithoutExtension(header.ImageFile.FileName);
+                    string extension = Path.GetExtension(header.ImageFile.FileName);
+
+
+
+                    //Plockar bort mellanslag i filnam + lägger till timestamp
+                    header.ImageName = fileName = fileName.Replace(" ", String.Empty) + DateTime.Now.ToString("yymmssfff") + extension;
+                    string path = Path.Combine(wwwRootPath + "/imageupload", fileName);
+
+
+
+                    //Lagra Fil
+                    using (var fileStream = new FileStream(path, FileMode.Create)) 
+                    {
+                        await header.ImageFile.CopyToAsync(fileStream);
+                    }
+
+
+                    createHeaderFile(fileName);
+                    //Funktion för att ange bildens storlek
+                  //  createLogoFile(fileName2);
+                   
+
+                }
+                  if (header.LogoFile != null) {
+ 
+                    //Spara bilder till wwwroot
+                    string fileName = Path.GetFileNameWithoutExtension(header.LogoFile.FileName);
+                    string extension = Path.GetExtension(header.LogoFile.FileName);
+
+                    
+                    //Plockar bort mellanslag i filnam + lägger till timestamp
+                    header.LogoName = fileName = fileName.Replace(" ", String.Empty) + DateTime.Now.ToString("yymmssfff") + extension;
+                    string path = Path.Combine(wwwRootPath + "/imageupload", fileName);
+
+                                       //Lagra Fil
+                    using (var fileStream = new FileStream(path, FileMode.Create)) 
+                    {
+        
+                        await header.LogoFile.CopyToAsync(fileStream);
+                    }
+
+                    createLogoFile(fileName);
+
+                  }
+                else {
+                    header.ImageName = null;
+                }
+
+
+
                 _context.Add(header);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -88,7 +159,7 @@ namespace cmsSystem.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Font,HeaderName,LogoName")] Header header)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Font, FontColor, SubTitle, NavColor, ImageName,  ImageFile, LogoName, LogoFile")] Header header)
         {
             if (id != header.Id)
             {
@@ -97,11 +168,73 @@ namespace cmsSystem.Controllers
 
             if (ModelState.IsValid)
             {
-                try
-                {
+
+        try {
+            //HEADER
+             if (header.ImageFile != null) {
+
+                     //Spara bilder till wwwroot
+                    string fileName = Path.GetFileNameWithoutExtension(header.ImageFile.FileName);
+                    string extension = Path.GetExtension(header.ImageFile.FileName);
+
+                    //Plockar bort mellanslag i filnam + lägger till timestamp
+                    header.ImageName = fileName = fileName.Replace(" ", String.Empty) + DateTime.Now.ToString("yymmssfff") + extension;
+                    string path = Path.Combine(wwwRootPath + "/imageupload", fileName);
+
+                     //Lagra Fil
+                    using (var fileStream = new FileStream(path, FileMode.Create)) 
+                    {
+                        await header.ImageFile.CopyToAsync(fileStream);
+                    }
+
+                    createHeaderFile(fileName);
+
+                 }
+
+                    //LOGGA
+                    if (header.LogoFile != null) {
+ 
+                    //Spara bilder till wwwroot
+                    string fileName = Path.GetFileNameWithoutExtension(header.LogoFile.FileName);
+                    string extension = Path.GetExtension(header.LogoFile.FileName);
+
+                    
+                    //Plockar bort mellanslag i filnam + lägger till timestamp
+                    header.LogoName = fileName = fileName.Replace(" ", String.Empty) + DateTime.Now.ToString("yymmssfff") + extension;
+                    string path = Path.Combine(wwwRootPath + "/imageupload", fileName);
+
+                    //Lagra Fil
+                    using (var fileStream = new FileStream(path, FileMode.Create)) 
+                    {
+        
+                        await header.LogoFile.CopyToAsync(fileStream);
+                    }
+
+                    createLogoFile(fileName);
+
+                  } else {
+                    if(header.ImageName != "") 
+                    {
+                        header.ImageName = header.ImageName;
+                    }
+                    else 
+                    {
+                        header.ImageName =null;
+                    }
+                    if(header.LogoName != "") 
+                    {
+                       header.LogoName = header.LogoName;
+                    }
+                    else 
+                    {
+                        header.LogoName =null;
+                    }
+                  }
+
                     _context.Update(header);
                     await _context.SaveChangesAsync();
-                }
+            }
+                
                 catch (DbUpdateConcurrencyException)
                 {
                     if (!HeaderExists(header.Id))
@@ -159,5 +292,32 @@ namespace cmsSystem.Controllers
         {
           return (_context.Header?.Any(e => e.Id == id)).GetValueOrDefault();
         }
+
+
+                //Funktion för header
+         
+         private void createHeaderFile(string fileName) {
+
+            using(var img = Image.FromFile(Path.Combine(wwwRootPath + "/imageupload/" , fileName))) {
+              
+               img.Scale(HeaderWidth, HeaderHeigth).SaveAs(Path.Combine(wwwRootPath + "/imageupload" + fileName)); 
+            } 
+
+
+         }
+
+
+         
+                //Funktion för Logga
+         
+         private void createLogoFile(string fileName2) {
+
+            using(var img = Image.FromFile(Path.Combine(wwwRootPath + "/imageupload/" , fileName2))) {
+              
+               img.Scale(LogoWidth, LogoHeigth).SaveAs(Path.Combine(wwwRootPath + "/imageupload" + fileName2)); 
+            } 
+
+
+         } 
     }
 }

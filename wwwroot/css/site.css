@@ -2,6 +2,13 @@ html {
   font-size: 14px;
 }
 
+.listColor {
+  padding:20px;
+  border-radius: 150px;
+  width: 30px;
+
+}
+
 /* LOGOUT BUTTON */ 
 .logout {
   background-color: #7ccdb1e0;
@@ -340,6 +347,52 @@ footer {
 }
 
 
+/**** Fonter i select-lista *****/
+
+.arial {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.times {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+.oswald {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+.helvetica {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+.georgia {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+.verdana {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.palatino {
+  font-family: 'palatino', serif;
+  font-size: 20px;
+}
+.baskerville {
+  font-family: 'baskerville', serif;
+  font-size: 20px;
+}
+.brush {
+  font-family: 'brush script mt', cursive;
+  font-size: 20px;
+}
+.gillsans {
+  font-family: 'Gill Sans', sans-serif;
+  font-size: 20px;
+}
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
 
 @media (max-width: 900px){
  .main h1{

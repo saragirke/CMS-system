@@ -7,16 +7,22 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using cmsSystem.Data;
 using cmsSystem.Models;
+using LazZiya.ImageResize; // Bilder
+using System.Drawing; // Bilder
 
 namespace cmsSystem.Controllers
 {
     public class AboutController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly IWebHostEnvironment _hostEnvironment;
+        private string wwwRootPath;
 
-        public AboutController(ApplicationDbContext context)
+        public AboutController(ApplicationDbContext context, IWebHostEnvironment hostEnvironment)
         {
             _context = context;
+            _hostEnvironment = hostEnvironment;
+            wwwRootPath = _hostEnvironment.WebRootPath;
         }
 
         // GET: About
@@ -56,10 +62,35 @@ namespace cmsSystem.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,AboutTitle,AboutText,AboutImage,AltText")] About about)
+        public async Task<IActionResult> Create([Bind("Id,AboutTitle,AboutText,AboutFile,AltText")] About about)
         {
             if (ModelState.IsValid)
             {
+
+                    if (about.AboutFile != null) {
+
+                    //Spara bilder till wwwroot
+                    string fileName = Path.GetFileNameWithoutExtension(about.AboutFile.FileName);
+                    string extension = Path.GetExtension(about.AboutFile.FileName);
+
+                    //Plockar bort mellanslag i filnam + lägger till timestamp
+                    about.AboutImage = fileName = fileName.Replace(" ", String.Empty) + DateTime.Now.ToString("yymmssfff") + extension;
+                    string path = Path.Combine(wwwRootPath + "/imageupload", fileName);
+
+                    //Lagra Fil
+                    using (var fileStream = new FileStream(path, FileMode.Create)) 
+                    {
+                        await about.AboutFile.CopyToAsync(fileStream);
+                    }
+
+                    //Funktion för att ange bildens storlek
+                    //createImageFile(fileName);
+
+                }
+                else {
+                    about.AboutImage = null;
+                }
+
                 _context.Add(about);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -88,7 +119,7 @@ namespace cmsSystem.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,AboutTitle,AboutText,AboutImage,AltText")] About about)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,AboutTitle,AboutText,AboutImage, AboutFile, AltText")] About about)
         {
             if (id != about.Id)
             {
@@ -99,6 +130,34 @@ namespace cmsSystem.Controllers
             {
                 try
                 {
+
+                    if (about.AboutFile != null) {
+
+                    //Spara bilder till wwwroot
+                    string fileName = Path.GetFileNameWithoutExtension(about.AboutFile.FileName);
+                    string extension = Path.GetExtension(about.AboutFile.FileName);
+
+                    //Plockar bort mellanslag i filnam + lägger till timestamp
+                    about.AboutImage = fileName = fileName.Replace(" ", String.Empty) + DateTime.Now.ToString("yymmssfff") + extension;
+                    string path = Path.Combine(wwwRootPath + "/imageupload", fileName);
+
+                    //Lagra Fil
+                    using (var fileStream = new FileStream(path, FileMode.Create)) 
+                    {
+                        await about.AboutFile.CopyToAsync(fileStream);
+                    }
+
+                    //Funktion för att ange bildens storlek
+                    //createImageFile(fileName);
+
+                }
+                else {
+                    about.AboutImage = null;
+                }
+
+
+
+
                     _context.Update(about);
                     await _context.SaveChangesAsync();
                 }

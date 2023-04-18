@@ -204,6 +204,46 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/maxor/cmsSystem/Views/Start/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhcnRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maxor/cmsSystem/Views/Start/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhcnRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maxor/cmsSystem/Views/Start/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhcnRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maxor/cmsSystem/Views/Start/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhcnRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maxor/cmsSystem/Views/Start/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhcnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maxor/cmsSystem/Views/Widget/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lkZ2V0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maxor/cmsSystem/Views/Widget/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lkZ2V0XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maxor/cmsSystem/Views/Widget/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lkZ2V0XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maxor/cmsSystem/Views/Widget/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lkZ2V0XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maxor/cmsSystem/Views/Widget/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lkZ2V0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/maxor/cmsSystem/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

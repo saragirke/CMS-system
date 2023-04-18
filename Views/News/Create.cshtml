@@ -18,18 +18,19 @@
                 <span asp-validation-for="Title" class="text-danger"></span>
             </div><br>
 
-  <div class="form-outline mb-4">
+    <div class="form-outline mb-4">
       <label class="form-label" asp-for="Post"></label>
       <div>
         <textarea asp-for="Post" class="form-control"></textarea>
         <span asp-validation-for="Post" class="text-danger"></span>
       </div>
-  </div>
+    </div>
             <div class="form-group">
                 <label asp-for="ImageFile"class="control-label"></label>
                 <input asp-for="ImageFile" accept="image/*" class="form-control" />
                 <span asp-validation-for="ImageFile" class="text-danger"></span>
-            </div><br>
+            </div>
+            <br>
             <div class="form-group">
                 <label asp-for="AltText" class="control-label"></label>
                 <input asp-for="AltText" class="form-control" />
@@ -59,7 +60,7 @@
            tinymce.init({
             forced_root_block: false,
                selector: 'textarea#Post',
-               entity_encoding : "raw"
+                entity_encoding : "raw"
                
            });
        </script>

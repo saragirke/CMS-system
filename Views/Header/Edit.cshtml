@@ -4,46 +4,99 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<h1>Ändra</h1>
 
 <h4>Header</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form asp-action="Edit" enctype="multipart/form-data" >
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
             <div class="form-group">
                 <label asp-for="Title" class="control-label"></label>
                 <input asp-for="Title" class="form-control" />
                 <span asp-validation-for="Title" class="text-danger"></span>
-            </div>
+            </div><br>
             <div class="form-group">
+                <label asp-for="SubTitle" class="control-label"></label>
+                <input asp-for="SubTitle" class="form-control" />
+                <span asp-validation-for="SubTitle" class="text-danger"></span>
+            </div><br>
+               <div class="form-group">
                 <label asp-for="Font" class="control-label"></label>
-                <input asp-for="Font" class="form-control" />
-                <span asp-validation-for="Font" class="text-danger"></span>
-            </div>
+            <select asp-for="Font" class="form-control">
+  <option value="">Select</option>
+        <option disabled style="font-weight: bold; background-color: #EEEEEE">Serif Fonts</option>
+        <option value="Georgia,serif" style="font-family: Georgia,serif">Georgia</option>
+        <option value="Palatino Linotype,Book Antiqua,Palatino,serif" style="font-family: Palatino Linotype,Book Antiqua,Palatino,serif">Palatino Linotype</option>
+        <option value="Times New Roman,Times,serif" style="font-family: Times New Roman,Times,serif">Times New Roman</option>
+        <option disabled style="font-weight: bold; background-color: #EEEEEE">Sans-Serif Fonts</option>
+        <option value="Arial,Helvetica,sans-serif" style="font-family: Arial,Helvetica,sans-serif">Arial</option>
+        <option value="Arial Black,Gadget,sans-serif" style="font-family: Arial Black,Gadget,sans-serif">Arial Black</option>
+        <option value="Comic Sans MS,cursive,sans-serif" style="font-family: Comic Sans MS,cursive,sans-serif">Comic Sans MS</option>
+        <option value="Impact,Charcoal,sans-serif" style="font-family: Impact,Charcoal,sans-serif">Impact</option>
+        <option value="Lucida Sans Unicode,Lucida Grande,sans-serif" style="font-family: Lucida Sans Unicode,Lucida Grande,sans-serif">Lucida Sans Unicode</option>
+        <option value="Tahoma,Geneva,sans-serif" style="font-family: Tahoma,Geneva,sans-serif">Tahoma</option>
+        <option value="Trebuchet MS,Helvetica,sans-serif" style="font-family: Trebuchet MS,Helvetica,sans-serif">Trebuchet MS</option>
+        <option value="Verdana,Geneva,sans-serif" style="font-family: Verdana,Geneva,sans-serif">Verdana</option>
+        <option disabled style="font-weight: bold; background-color: #EEEEEE">Monospace Fonts</option>
+        <option value="Courier New,Courier,monospace" style="font-family: Courier New,Courier,monospace">Courier New</option>
+        <option value="Lucida Console,Monaco,monospace" style="font-family: Lucida Console,Monaco,monospace">Lucida Console</option>
+           
+            </select>
+            </div><br>
+              <div class="form-group">
+                <label asp-for="FontColor" class="control-label"></label>
+                <input asp-for="FontColor" data-jscolor="{}" asp-for="FontColor" class="form-control" />
+                <span asp-validation-for="FontColor" class="text-danger"></span>
+            </div> 
+            <br>
             <div class="form-group">
-                <label asp-for="HeaderName" class="control-label"></label>
-                <input asp-for="HeaderName" class="form-control" />
-                <span asp-validation-for="HeaderName" class="text-danger"></span>
-            </div>
+                <label asp-for="NavColor" class="control-label"></label>
+                <input asp-for="NavColor" data-jscolor="{}" asp-for="FontColor" class="form-control" />
+                <span asp-validation-for="NavColor" class="text-danger"></span>
+            </div> 
+            <br>
+            
             <div class="form-group">
-                <label asp-for="LogoName" class="control-label"></label>
-                <input asp-for="LogoName" class="form-control" />
+                <label asp-for="ImageName"></label><br>
+                 <img decoding="async" src="@("~/imageupload/"+Model.ImageName)" alt="uppladdad bild" asp-append-version="true" width="250" height="200"/><br><br>
+                <input asp-for="ImageName" accept="image/*" class="form-control" /> 
+                <span asp-validation-for="ImageName" class="text-danger"></span> 
+            </div><br>
+                        <br>
+            <div class="form-group">
+                <label asp-for="ImageFile"class="control-label"></label>
+                <input asp-for="ImageFile" accept="image/*" class="form-control" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <label asp-for="LogoName"></label><br>
+                 <img decoding="async" src="@("~/imageupload/"+Model.LogoName)" alt="uppladdad bild" asp-append-version="true" width="250" height="200"/><br><br>
+               <input asp-for="LogoName" accept="image/*" class="form-control" /> 
                 <span asp-validation-for="LogoName" class="text-danger"></span>
+            <br>
+                        <div class="form-group">
+                <label asp-for="LogoFile"class="control-label"></label>
+                <input asp-for="LogoFile" accept="image/*" class="form-control" />
+                <span asp-validation-for="LogoFile" class="text-danger"></span>
             </div>
+            <br>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Spara" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
+<div><br>
+    <a asp-action="Index">Tillbaka</a>
 </div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script src="~/js/jscolor.js" asp-append-version="true"></script>
 }

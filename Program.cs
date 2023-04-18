@@ -14,6 +14,22 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
+
+//Inkluderar CORS
+
+var MyAllowSpecificOrigins ="_myAllowSpecificOrigins";
+
+builder.Services.AddCors(options => {
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+    policy=>
+    {
+        policy.WithOrigins("*")
+        .AllowAnyHeader()
+        .AllowAnyMethod();
+    });
+});
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -39,5 +55,6 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
-
+//Inkluderar CORS
+app.UseCors(MyAllowSpecificOrigins);
 app.Run();

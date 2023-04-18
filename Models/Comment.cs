@@ -10,7 +10,6 @@ public class Comment {
 
     [Display (Name = "Namn:")]
     [MaxLength(120, ErrorMessage = "Max 120 tecken")]
-    [Required(ErrorMessage = "Obligatoriskt fält")]
     public string? CommentName {get; set;}
 
     [Display (Name = "Kommentar:")]

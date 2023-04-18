@@ -1,0 +1,81 @@
+@model IEnumerable<cmsSystem.Models.Widget>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Widget</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.WidgetTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WidgetText)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WidgetColor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Color)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AltText)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Display)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.WidgetTitle)
+            </td>
+            <td>
+            @if (item.WidgetText.Length >= 50)
+                {
+                    @Html.Raw(item.WidgetText.Substring(0, 50))
+                }
+                else
+                {
+                @Html.Raw(item.WidgetText) //"Html Raw" Gör så att inte html taggar skrivs ut
+                }
+            </td>
+            <td>
+                <div class="listColor" style="background-color: @(@item.WidgetColor) ">
+              <!--  @Html.DisplayFor(modelItem => item.WidgetColor) -->
+                </div>
+            </td>
+            <td>
+                  <div class="listColor" style="background-color: @(@item.Color) "></div>
+               <!-- @Html.DisplayFor(modelItem => item.Color) -->
+            </td>
+            <td>
+                  <img decoding="async" src="@("~/imageupload/"+item.ImageName)" alt="Miniatyr av uppladdad bild" asp-append-version="true"  width="80" height="60"/>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AltText)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Display)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

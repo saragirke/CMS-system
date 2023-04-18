@@ -11,14 +11,18 @@ public class Widget {
     [Display (Name = "Titel:")]
     [MaxLength(120, ErrorMessage = "Max 120 tecken")]
     [Required(ErrorMessage = "Obligatoriskt fält")]
-    public string? SerivceTitle {get; set;}
+    public string? WidgetTitle {get; set;}
 
     [Display (Name = "Text:")]
     [Required(ErrorMessage = "Obligatoriskt fält")]
     public string? WidgetText {get; set;}
 
-    [Display (Name = "Bakgrundsfärg på widget:")]
+    [Display (Name = "Bakgrundsfärg:")]
     public string? WidgetColor {get; set;}
+
+    [Display (Name = "Textfärg:")]
+    public string? Color {get; set;}
+
 
     [Display (Name = "Bild:")]
     public string? ImageName {get; set;}
@@ -29,7 +33,7 @@ public class Widget {
 
 
     [NotMapped] //När en migration görs kommer detta inte skapas i databasen, endast gränssnittet
-    [Display(Name = "Bild")]
+    [Display(Name = "Bild:")]
     public IFormFile? ImageFile {get; set;}
 
     [Display (Name = "Aktivera widget:")]

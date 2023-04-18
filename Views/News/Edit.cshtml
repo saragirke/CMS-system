@@ -10,7 +10,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form asp-action="Edit" enctype="multipart/form-data" >
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
             <div class="form-group">
@@ -24,12 +24,20 @@
         <textarea asp-for="Post" class="form-control"></textarea>
         <span asp-validation-for="Post" class="text-danger"></span>
       </div>
-  </div><br>
+    </div>            <br>
+            
             <div class="form-group">
-                <label asp-for="ImageName" class="control-label"></label>
-                <input asp-for="ImageName" class="form-control" />
-                <span asp-validation-for="ImageName" class="text-danger"></span>
-            </div><br>
+                <label asp-for="ImageName"></label><br>
+                 <img decoding="async" src="@("~/imageupload/"+Model.ImageName)" alt="uppladdad bild" asp-append-version="true" width="250" height="200"/><br><br>
+                <input asp-for="ImageName" accept="image/*" class="form-control" /> 
+                <span asp-validation-for="ImageName" class="text-danger"></span> 
+            </div><br><br>
+            <div class="form-group">
+                <label asp-for="ImageFile"class="control-label"></label>
+                <input asp-for="ImageFile" accept="image/*" class="form-control" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+            </div>
+            <br>
             <div class="form-group">
                 <label asp-for="AltText" class="control-label"></label>
                 <input asp-for="AltText" class="form-control" />

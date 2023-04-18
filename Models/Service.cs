@@ -11,11 +11,15 @@ public class Service {
     [Display (Name = "Titel:")]
     [MaxLength(120, ErrorMessage = "Max 120 tecken")]
     [Required(ErrorMessage = "Obligatoriskt fält")]
-    public string? SerivceTitle {get; set;}
+    public string? Title {get; set;}
 
     [Display (Name = "Om tjänsten:")]
     [Required(ErrorMessage = "Obligatoriskt fält")]
-    public string? AboutService {get; set;}
+    public string? Description {get; set;}
+
+    [Display (Name = "Pris:")]
+    public int? Price {get; set;}
+
 
     [Display (Name = "Bild:")]
     public string? ImageName {get; set;}

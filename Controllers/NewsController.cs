@@ -97,11 +97,6 @@ namespace cmsSystem.Controllers
                 }
 
 
-
-
-
-
-
                 _context.Add(news);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -130,7 +125,7 @@ namespace cmsSystem.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Post,ImageName,AltText,DateCreated")] News news)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Post,ImageName, ImageFile, AltText,DateCreated")] News news)
         {
             if (id != news.Id)
             {
@@ -139,11 +134,44 @@ namespace cmsSystem.Controllers
 
             if (ModelState.IsValid)
             {
-                try
-                {
+            try {
+            //HEADER
+             if (news.ImageFile != null) {
+
+                     //Spara bilder till wwwroot
+                    string fileName = Path.GetFileNameWithoutExtension(news.ImageFile.FileName);
+                    string extension = Path.GetExtension(news.ImageFile.FileName);
+
+                    //Plockar bort mellanslag i filnam + lägger till timestamp
+                    news.ImageName = fileName = fileName.Replace(" ", String.Empty) + DateTime.Now.ToString("yymmssfff") + extension;
+                    string path = Path.Combine(wwwRootPath + "/imageupload", fileName);
+
+                     //Lagra Fil
+                    using (var fileStream = new FileStream(path, FileMode.Create)) 
+                    {
+                        await news.ImageFile.CopyToAsync(fileStream);
+                    }
+
+                    createImageFile(fileName);
+
+                 }
+
+
+                  else {
+                    if(news.ImageName != "") 
+                    {
+                       news.ImageName = news.ImageName;
+                    }
+                    else 
+                    {
+                        news.ImageName =null;
+                    }
+
+                  }
+
                     _context.Update(news);
                     await _context.SaveChangesAsync();
-                }
+            }
                 catch (DbUpdateConcurrencyException)
                 {
                     if (!NewsExists(news.Id))

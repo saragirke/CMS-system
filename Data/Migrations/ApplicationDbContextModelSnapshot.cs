@@ -245,7 +245,6 @@ namespace cmsSystem.Data.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("CommentName")
-                        .IsRequired()
                         .HasMaxLength(120)
                         .HasColumnType("TEXT");
 
@@ -302,10 +301,19 @@ namespace cmsSystem.Data.Migrations
                     b.Property<string>("Font")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("HeaderName")
+                    b.Property<string>("FontColor")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ImageName")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("LogoName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("NavColor")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("SubTitle")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Title")
@@ -384,17 +392,20 @@ namespace cmsSystem.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("AboutService")
-                        .IsRequired()
+                    b.Property<string>("AltText")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("AltText")
+                    b.Property<string>("Description")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("ImageName")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("SerivceTitle")
+                    b.Property<int?>("Price")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Title")
                         .IsRequired()
                         .HasMaxLength(120)
                         .HasColumnType("TEXT");
@@ -402,6 +413,67 @@ namespace cmsSystem.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Service");
+                });
+
+            modelBuilder.Entity("cmsSystem.Models.Start", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("AltText")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ImageName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(120)
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Start");
+                });
+
+            modelBuilder.Entity("cmsSystem.Models.Widget", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("AltText")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Color")
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("Display")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("ImageName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("WidgetColor")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("WidgetText")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("WidgetTitle")
+                        .IsRequired()
+                        .HasMaxLength(120)
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Widget");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

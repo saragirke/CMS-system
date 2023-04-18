@@ -1,0 +1,60 @@
+@model IEnumerable<cmsSystem.Models.Start>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Startsida</h1>
+
+<p>
+    <a asp-action="Create">Lägg till innehåll</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AltText)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+            @if (item.Description.Length >= 50)
+                {
+                    @Html.Raw(item.Description.Substring(0, 50))
+                }
+                else
+                {
+                @Html.Raw(item.Description) //"Html Raw" Gör så att inte html taggar skrivs ut
+                }
+            </td>
+            <td>
+                  <img decoding="async" src="@("~/imageupload/"+item.ImageName)" alt="Miniatyr av uppladdad bild" asp-append-version="true"  width="80" height="60"/>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AltText)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Redigera</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Detaljer</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Radera</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

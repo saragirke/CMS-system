@@ -21,3 +21,85 @@
                 </div>
             </div>
         </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        // POST: Header/Create
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("Id,Title,Font,HeaderFile,LogoFile")] Header header)
+        {
+            if (ModelState.IsValid)
+            {
+
+
+                    if (header.HeaderFile != null ) {
+
+                    //Spara bilder till wwwroot HEADER
+                    string headerfileName = Path.GetFileNameWithoutExtension(header.HeaderFile.FileName);
+                    string extension = Path.GetExtension(header.HeaderFile.FileName);
+
+
+                   //Plockar bort mellanslag i filnam + lägger till timestamp HEADER
+                    header.HeaderName = headerfileName = headerfileName.Replace(" ", String.Empty) + DateTime.Now.ToString("yymmssfff") + extension;
+                    string path = Path.Combine(wwwRootPath + "/imageupload", headerfileName);
+
+               
+                    //Lagra Fil
+                    using (var fileStream = new FileStream(path, FileMode.Create)) 
+                    {
+                        await header.HeaderFile.CopyToAsync(fileStream);
+                    }              
+
+                    //Funktion för att ange bildens storlek
+                   // createHeaderFile(fileName);
+
+                    
+
+                } /*
+                    if (header.LogoFile != null ) {
+                    //Spara bilder till wwwroot LOGGA
+                    string logofileName = Path.GetFileNameWithoutExtension(header.LogoFile.FileName);
+                    string logoextension = Path.GetExtension(header.LogoFile.FileName);
+
+                      //Plockar bort mellanslag i filnam + lägger till timestamp LOGGA
+                    header.LogoName = logofileName = logofileName.Replace(" ", String.Empty) + DateTime.Now.ToString("yymmssfff") + logoextension;
+                    string logopath = Path.Combine(wwwRootPath + "/imageupload", logofileName);
+
+                     //Lagra Fil
+                    using (var fileStream = new FileStream(logopath, FileMode.Create)) 
+                    {
+                        await header.LogoFile.CopyToAsync(fileStream);
+                    }
+
+                     createLogoFile(logofileName);
+
+  }*/
+
+
+                else {
+                    header.HeaderName = null;
+                  //  header.LogoName = null;
+                }
+
+
+                _context.Add(header);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(header);
+        }s

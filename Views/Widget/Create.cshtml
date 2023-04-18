@@ -1,0 +1,78 @@
+@model cmsSystem.Models.Widget
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Widget</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data" >
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="WidgetTitle" class="control-label"></label>
+                <input asp-for="WidgetTitle" class="form-control" />
+                <span asp-validation-for="WidgetTitle" class="text-danger"></span>
+            </div><br>
+    <div class="form-outline mb-4">
+      <label class="form-label" asp-for="WidgetText"></label>
+      <div>
+        <textarea asp-for="WidgetText" class="form-control"></textarea>
+        <span asp-validation-for="WidgetText" class="text-danger"></span>
+      </div>
+    </div>
+            <div class="form-group">
+                <label asp-for="WidgetColor" class="control-label"></label>
+                <input value="#3399FF80" data-jscolor="{}" asp-for="WidgetColor" class="form-control" />
+                <span asp-validation-for="WidgetColor" class="text-danger"></span>
+            </div> 
+            <br>
+            <div class="form-group">
+                <label asp-for="Color" class="control-label"></label>
+                <input value="#3399FF80" data-jscolor="{}" asp-for="Color" class="form-control" />
+                <span asp-validation-for="Color" class="text-danger"></span>
+            </div> 
+            <br>
+            <div class="form-group">
+                <label asp-for="ImageFile"class="control-label"></label>
+                <input asp-for="ImageFile" accept="image/*" class="form-control" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+            </div>
+            <br>
+            <div class="form-group">
+                <label asp-for="AltText" class="control-label"></label>
+                <input asp-for="AltText" class="form-control" />
+                <span asp-validation-for="AltText" class="text-danger"></span>
+            </div><br>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Display" /> @Html.DisplayNameFor(model => model.Display)
+                </label>
+            </div><br>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<br>
+<div>
+    <a asp-action="Index">Tillbaka</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+      <script src="~/js/jscolor.js" asp-append-version="true"></script>
+
+               <script>
+           tinymce.init({
+            forced_root_block: false,
+               selector: 'textarea#WidgetText',
+                entity_encoding : "raw"
+               
+           });
+       </script>
+}

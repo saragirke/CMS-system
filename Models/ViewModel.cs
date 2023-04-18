@@ -11,7 +11,5 @@ public Header? LogoName { get; set; }
 public Header? LogoFile { get; set; }
 
 
-
-
     }
     }
