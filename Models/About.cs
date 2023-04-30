@@ -13,7 +13,6 @@ public class About {
     public string? AboutTitle {get; set;}
 
     [Display (Name = "Text:")]
-    [MaxLength(120, ErrorMessage = "Max 120 tecken")]
     public string? AboutText {get; set;}
 
     [Display (Name = "Bild:")]

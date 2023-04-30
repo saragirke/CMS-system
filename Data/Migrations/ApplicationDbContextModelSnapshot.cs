@@ -223,7 +223,6 @@ namespace cmsSystem.Data.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("AboutText")
-                        .HasMaxLength(120)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("AboutTitle")
@@ -260,8 +259,7 @@ namespace cmsSystem.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("NewsId")
-                        .IsUnique();
+                    b.HasIndex("NewsId");
 
                     b.ToTable("Comment");
                 });
@@ -415,6 +413,40 @@ namespace cmsSystem.Data.Migrations
                     b.ToTable("Service");
                 });
 
+            modelBuilder.Entity("cmsSystem.Models.Staff", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("AltText")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ImageName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(120)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Number")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Staff");
+                });
+
             modelBuilder.Entity("cmsSystem.Models.Start", b =>
                 {
                     b.Property<int>("Id")
@@ -530,8 +562,8 @@ namespace cmsSystem.Data.Migrations
             modelBuilder.Entity("cmsSystem.Models.Comment", b =>
                 {
                     b.HasOne("cmsSystem.Models.News", "News")
-                        .WithOne("Comment")
-                        .HasForeignKey("cmsSystem.Models.Comment", "NewsId");
+                        .WithMany("Comment")
+                        .HasForeignKey("NewsId");
 
                     b.Navigation("News");
                 });

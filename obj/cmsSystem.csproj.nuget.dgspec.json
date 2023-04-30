@@ -90,6 +90,10 @@
             "Syncfusion.Licensing": {
               "target": "Package",
               "version": "[21.1.37, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [

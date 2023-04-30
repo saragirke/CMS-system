@@ -12,7 +12,7 @@ namespace cmsSystem.Models
         [Required(ErrorMessage = "Obligatoriskt fält")]
         public string? FirstName { get; set; }
 
-        [Display(Name = "Förnamn:")]
+        [Display(Name = "Efternamn:")]
         [MaxLength(120, ErrorMessage = "Max 120 tecken")] 
         [Required(ErrorMessage = "Obligatoriskt fält")]
         public string? LastName { get; set; }

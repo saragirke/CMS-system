@@ -20,4 +20,5 @@ public class ApplicationDbContext : IdentityDbContext
     public DbSet<Service> Service { get; set; }  = default!;
     public DbSet<cmsSystem.Models.Start> Start { get; set; } = default!;
     public DbSet<cmsSystem.Models.Widget> Widget { get; set; } = default!;
+    public DbSet<cmsSystem.Models.Staff> Staff { get; set; } = default!;
 }

@@ -32,7 +32,7 @@ public class News {
     [Display(Name = "Bild")]
     public IFormFile? ImageFile {get; set;}
 
-     public Comment? Comment {get; set;}
+    public IEnumerable<Comment> Comment { get; set; }  = default!;
 }
 
 }
