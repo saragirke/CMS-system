@@ -4,10 +4,10 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Nyheter</h1>
+<h1>Index</h1>
 
 <p>
-    <a asp-action="Create">Skapa nyhet</a>
+    <a asp-action="Create">Create New</a>
 </p>
 <table class="table">
     <thead>
@@ -21,9 +21,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.ImageName)
             </th>
-           <!-- <th>
+            <th>
                 @Html.DisplayNameFor(model => model.AltText)
-            </th> -->
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.DateCreated)
             </th>
@@ -37,17 +37,13 @@
                 @Html.DisplayFor(modelItem => item.Title)
             </td>
             <td>
-            @if (item.Post.Length >= 50)
-                {
-                    @Html.Raw(item.Post.Substring(0, 50))
-                }
-                else
-                {
-                @Html.Raw(item.Post) //"Html Raw" Gör så att inte html taggar skrivs ut
-                }
+                @Html.DisplayFor(modelItem => item.Post)
             </td>
             <td>
-                  <img decoding="async" src="@("~/imageupload/"+item.ImageName)" alt="Miniatyr av uppladdad bild" asp-append-version="true"  width="80" height="60"/>
+                @Html.DisplayFor(modelItem => item.ImageName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AltText)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.DateCreated)

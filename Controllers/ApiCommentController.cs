@@ -49,7 +49,7 @@ namespace cmsSystem.Controllers
 
             return comment;
         }
-
+/*
         // PUT: api/ApiComment/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
@@ -79,7 +79,7 @@ namespace cmsSystem.Controllers
             }
 
             return NoContent();
-        }
+        } */
 
         // POST: api/ApiComment
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
@@ -95,7 +95,8 @@ namespace cmsSystem.Controllers
 
             return CreatedAtAction("GetComment", new { id = comment.Id }, comment);
         }
-
+    }}
+/*
         // DELETE: api/ApiComment/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteComment(int id)
@@ -122,3 +123,4 @@ namespace cmsSystem.Controllers
         }
     }
 }
+*/

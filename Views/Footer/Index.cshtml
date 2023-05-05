@@ -51,9 +51,8 @@
                 @Html.DisplayFor(modelItem => item.FooterEmail)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-               <!-- <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> -->
+                <a asp-action="Edit" asp-route-id="@item.Id"><img src="~/icons/change.png" class="icon" alt="knapp för redigering"/></a> 
+                <a asp-action="Details" asp-route-id="@item.Id"><img src="~/icons/file.png" class="icon" alt="knapp för att se detaljer"/></a> 
             </td>
         </tr>
 }

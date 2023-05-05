@@ -7,7 +7,7 @@
 <h1>Om oss</h1>
     <p>Lägg till information om företaget som visas på sidan "Om-Oss" </p>
 <p>
-    <a asp-action="Create">Create New</a><br> <br>
+  <a asp-action="Create"><img src="~/icons/add.png" class="icon" alt="knapp för att lägga till nyhet"/>  Lägg till innehåll </a>
 
 </p>
 <table class="table">
@@ -51,9 +51,9 @@
                 @Html.DisplayFor(modelItem => item.AltText)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.Id"><img src="~/icons/change.png" class="icon" alt="knapp för redigering"/></a> 
+                <a asp-action="Details" asp-route-id="@item.Id"><img src="~/icons/file.png" class="icon" alt="knapp för att se detaljer"/></a> 
+                <a asp-action="Delete" asp-route-id="@item.Id"><img src="~/icons/delete.png" class="icon" alt="knapp för radering"/></a>
             </td>
         </tr>
 }

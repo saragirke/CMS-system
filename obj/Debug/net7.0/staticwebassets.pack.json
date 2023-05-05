@@ -13,6 +13,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\icons\\add.png",
+      "PackagePath": "staticwebassets\\icons\\add.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\icons\\change.png",
+      "PackagePath": "staticwebassets\\icons\\change.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\icons\\delete.png",
+      "PackagePath": "staticwebassets\\icons\\delete.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\icons\\file.png",
+      "PackagePath": "staticwebassets\\icons\\file.png"
+    },
+    {
       "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadMax235445999.png",
       "PackagePath": "staticwebassets\\imageuploadMax235445999.png"
     },
@@ -93,12 +109,32 @@
       "PackagePath": "staticwebassets\\imageupload\\Skärmbild2023-04-24155217235604227.png"
     },
     {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Skärmbild2023-05-03213113234745124.png",
+      "PackagePath": "staticwebassets\\imageupload\\Skärmbild2023-05-03213113234745124.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Skärmbild2023-05-04141227233545063.png",
+      "PackagePath": "staticwebassets\\imageupload\\Skärmbild2023-05-04141227233545063.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Skärmbild2023-05-04160528233844967.png",
+      "PackagePath": "staticwebassets\\imageupload\\Skärmbild2023-05-04160528233844967.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Skärmbild2023-05-04160528234842732.png",
+      "PackagePath": "staticwebassets\\imageupload\\Skärmbild2023-05-04160528234842732.png"
+    },
+    {
       "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\ashe-walker-oAkQxWccPG0-unsplash231631851.jpg",
       "PackagePath": "staticwebassets\\imageupload\\ashe-walker-oAkQxWccPG0-unsplash231631851.jpg"
     },
     {
       "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\barthelemy-de-mazenod-b5NWhnBtUJw-unsplash231726994.jpg",
       "PackagePath": "staticwebassets\\imageupload\\barthelemy-de-mazenod-b5NWhnBtUJw-unsplash231726994.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\benjamin-wedemeyer-HHx_8m6-YNk-unsplash(1)230057783.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\benjamin-wedemeyer-HHx_8m6-YNk-unsplash(1)230057783.jpg"
     },
     {
       "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\brooke-cagle--uHVRvDr7pg-unsplash230047491.jpg",
@@ -145,6 +181,10 @@
       "PackagePath": "staticwebassets\\imageupload\\iwood-R5v8Xtc0ecg-unsplash230436509.jpg"
     },
     {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\iwood-R5v8Xtc0ecg-unsplash230547288.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\iwood-R5v8Xtc0ecg-unsplash230547288.jpg"
+    },
+    {
       "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\iwood-R5v8Xtc0ecg-unsplash235907754.jpg",
       "PackagePath": "staticwebassets\\imageupload\\iwood-R5v8Xtc0ecg-unsplash235907754.jpg"
     },
@@ -157,12 +197,32 @@
       "PackagePath": "staticwebassets\\imageupload\\latte234729666.png"
     },
     {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\lum3n--RBuQ2PK_L8-unsplash230502222.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\lum3n--RBuQ2PK_L8-unsplash230502222.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\markus-winkler-3hBH-ZuvppU-unsplash230507703.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\markus-winkler-3hBH-ZuvppU-unsplash230507703.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\sdfs230710844.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\sdfs230710844.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\sdfs234048031.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\sdfs234048031.jpg"
+    },
+    {
       "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\spacejoy-9M66C_w_ToM-unsplash231901610.jpg",
       "PackagePath": "staticwebassets\\imageupload\\spacejoy-9M66C_w_ToM-unsplash231901610.jpg"
     },
     {
       "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\spacejoy-9M66C_w_ToM-unsplash232106839.jpg",
       "PackagePath": "staticwebassets\\imageupload\\spacejoy-9M66C_w_ToM-unsplash232106839.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\spacejoy-9M66C_w_ToM-unsplash232606291.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\spacejoy-9M66C_w_ToM-unsplash232606291.jpg"
     },
     {
       "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\spacejoy-9M66C_w_ToM-unsplash233532284.jpg",
@@ -209,6 +269,18 @@
       "PackagePath": "staticwebassets\\imageupload\\spacejoy-YI2YkyaREHk-unsplash235633523.jpg"
     },
     {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\test230246179.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\test230246179.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\test232712822.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\test232712822.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\test234908189.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\test234908189.jpg"
+    },
+    {
       "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\vinicius-amnx-amano-17NCG_wOkMY-unsplash230225153.jpg",
       "PackagePath": "staticwebassets\\imageupload\\vinicius-amnx-amano-17NCG_wOkMY-unsplash230225153.jpg"
     },
@@ -217,64 +289,28 @@
       "PackagePath": "staticwebassets\\imageupload\\vinicius-amnx-amano-17NCG_wOkMY-unsplash235214826.jpg"
     },
     {
-      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadchristina-wocintechchat-com-eF7HN40WbAQ-unsplash232534954.jpg",
-      "PackagePath": "staticwebassets\\imageuploadchristina-wocintechchat-com-eF7HN40WbAQ-unsplash232534954.jpg"
-    },
-    {
-      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadchristina-wocintechchat-com-eF7HN40WbAQ-unsplash235702994.jpg",
-      "PackagePath": "staticwebassets\\imageuploadchristina-wocintechchat-com-eF7HN40WbAQ-unsplash235702994.jpg"
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadiwood-R5v8Xtc0ecg-unsplash230547288.jpg",
+      "PackagePath": "staticwebassets\\imageuploadiwood-R5v8Xtc0ecg-unsplash230547288.jpg"
     },
     {
       "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadlatte234729666.png",
       "PackagePath": "staticwebassets\\imageuploadlatte234729666.png"
     },
     {
-      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadspacejoy-9M66C_w_ToM-unsplash231901610.jpg",
-      "PackagePath": "staticwebassets\\imageuploadspacejoy-9M66C_w_ToM-unsplash231901610.jpg"
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadmarkus-winkler-3hBH-ZuvppU-unsplash230507703.jpg",
+      "PackagePath": "staticwebassets\\imageuploadmarkus-winkler-3hBH-ZuvppU-unsplash230507703.jpg"
     },
     {
-      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadspacejoy-9M66C_w_ToM-unsplash232106839.jpg",
-      "PackagePath": "staticwebassets\\imageuploadspacejoy-9M66C_w_ToM-unsplash232106839.jpg"
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadsdfs230710844.jpg",
+      "PackagePath": "staticwebassets\\imageuploadsdfs230710844.jpg"
     },
     {
-      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadspacejoy-9M66C_w_ToM-unsplash233532284.jpg",
-      "PackagePath": "staticwebassets\\imageuploadspacejoy-9M66C_w_ToM-unsplash233532284.jpg"
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadsdfs234048031.jpg",
+      "PackagePath": "staticwebassets\\imageuploadsdfs234048031.jpg"
     },
     {
-      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadspacejoy-9M66C_w_ToM-unsplash233652816.jpg",
-      "PackagePath": "staticwebassets\\imageuploadspacejoy-9M66C_w_ToM-unsplash233652816.jpg"
-    },
-    {
-      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadspacejoy-9M66C_w_ToM-unsplash234323744.jpg",
-      "PackagePath": "staticwebassets\\imageuploadspacejoy-9M66C_w_ToM-unsplash234323744.jpg"
-    },
-    {
-      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadspacejoy-9M66C_w_ToM-unsplash234527260.jpg",
-      "PackagePath": "staticwebassets\\imageuploadspacejoy-9M66C_w_ToM-unsplash234527260.jpg"
-    },
-    {
-      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadspacejoy-9M66C_w_ToM-unsplash234729373.jpg",
-      "PackagePath": "staticwebassets\\imageuploadspacejoy-9M66C_w_ToM-unsplash234729373.jpg"
-    },
-    {
-      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadspacejoy-IH7wPsjwomc-unsplash234948387.jpg",
-      "PackagePath": "staticwebassets\\imageuploadspacejoy-IH7wPsjwomc-unsplash234948387.jpg"
-    },
-    {
-      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadspacejoy-OlFHzNjg9kY-unsplash232319036.jpg",
-      "PackagePath": "staticwebassets\\imageuploadspacejoy-OlFHzNjg9kY-unsplash232319036.jpg"
-    },
-    {
-      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadspacejoy-OlFHzNjg9kY-unsplash235211094.jpg",
-      "PackagePath": "staticwebassets\\imageuploadspacejoy-OlFHzNjg9kY-unsplash235211094.jpg"
-    },
-    {
-      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadspacejoy-YI2YkyaREHk-unsplash232604586.jpg",
-      "PackagePath": "staticwebassets\\imageuploadspacejoy-YI2YkyaREHk-unsplash232604586.jpg"
-    },
-    {
-      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadspacejoy-YI2YkyaREHk-unsplash235633523.jpg",
-      "PackagePath": "staticwebassets\\imageuploadspacejoy-YI2YkyaREHk-unsplash235633523.jpg"
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadtest234908189.jpg",
+      "PackagePath": "staticwebassets\\imageuploadtest234908189.jpg"
     },
     {
       "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\jscolor.js",

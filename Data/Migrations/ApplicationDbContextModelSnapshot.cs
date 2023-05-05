@@ -259,7 +259,8 @@ namespace cmsSystem.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("NewsId");
+                    b.HasIndex("NewsId")
+                        .IsUnique();
 
                     b.ToTable("Comment");
                 });
@@ -562,8 +563,8 @@ namespace cmsSystem.Data.Migrations
             modelBuilder.Entity("cmsSystem.Models.Comment", b =>
                 {
                     b.HasOne("cmsSystem.Models.News", "News")
-                        .WithMany("Comment")
-                        .HasForeignKey("NewsId");
+                        .WithOne("Comment")
+                        .HasForeignKey("cmsSystem.Models.Comment", "NewsId");
 
                     b.Navigation("News");
                 });

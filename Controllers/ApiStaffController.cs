@@ -49,9 +49,12 @@ namespace cmsSystem.Controllers
 
             return staff;
         }
+    }
+    }
 
         // PUT: api/ApiStaff/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        /*
         [HttpPut("{id}")]
         public async Task<IActionResult> PutStaff(int id, Staff staff)
         {
@@ -121,4 +124,4 @@ namespace cmsSystem.Controllers
             return (_context.Staff?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
-}
+} */

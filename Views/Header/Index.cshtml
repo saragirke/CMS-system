@@ -5,10 +5,10 @@
 }
 
 <h1>Header</h1>
-
+<!--
 <p>
     <a asp-action="Create">Skapa din Header</a>
-</p>
+</p> -->
 <p></p>
 <table class="table">
     <thead>
@@ -62,12 +62,11 @@
                   <img decoding="async" src="@("~/imageupload/"+item.ImageName)" alt="Miniatyr av uppladdad bild" asp-append-version="true"  width="80" height="60"/>
             </td>
             <td>
-                  <img decoding="async" src="@("~/imageupload/"+item.LogoName)" alt="Miniatyr av uppladdad bild" asp-append-version="true"  width="80" height="60"/>
+                  <img decoding="async" src="@("~/imageupload/"+item.LogoName)" alt="Miniatyr av uppladdad bild" asp-append-version="true"  width="60" height="60"/>
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.Id"><img src="~/icons/change.png" class="icon" alt="knapp för redigering"/></a> 
+                <a asp-action="Details" asp-route-id="@item.Id"><img src="~/icons/file.png" class="icon" alt="knapp för att se detaljer"/></a> 
             </td>
         </tr>
 }

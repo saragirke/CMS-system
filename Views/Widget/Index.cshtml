@@ -7,16 +7,13 @@
 <h1>Widget</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Skapa ny</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.WidgetTitle)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.WidgetText)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.WidgetColor)
@@ -28,10 +25,10 @@
                 @Html.DisplayNameFor(model => model.ImageName)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.AltText)
+                Bild-text:
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Display)
+                Aktiverad:
             </th>
             <th></th>
         </tr>
@@ -58,10 +55,6 @@
                 </div>
             </td>
             <td>
-                  <div class="listColor" style="background-color: @(@item.Color) "></div>
-               <!-- @Html.DisplayFor(modelItem => item.Color) -->
-            </td>
-            <td>
                   <img decoding="async" src="@("~/imageupload/"+item.ImageName)" alt="Miniatyr av uppladdad bild" asp-append-version="true"  width="80" height="60"/>
             </td>
             <td>
@@ -71,9 +64,9 @@
                 @Html.DisplayFor(modelItem => item.Display)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.Id"><img src="~/icons/change.png" class="icon" alt="knapp för redigering"/></a> 
+                <a asp-action="Details" asp-route-id="@item.Id"><img src="~/icons/file.png" class="icon" alt="knapp för att se detaljer"/></a> 
+                <a asp-action="Delete" asp-route-id="@item.Id"><img src="~/icons/delete.png" class="icon" alt="knapp för radering"/></a>
             </td>
         </tr>
 }

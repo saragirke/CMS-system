@@ -9,6 +9,10 @@ html {
 
 }
 
+.icon {
+  width:40px;
+}
+
 /* LOGOUT BUTTON */ 
 .logout {
   background-color: #7ccdb1e0;

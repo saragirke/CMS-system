@@ -20,7 +20,7 @@ public class Widget {
     [Display (Name = "Bakgrundsfärg:")]
     public string? WidgetColor {get; set;}
 
-    [Display (Name = "Textfärg:")]
+    [Display (Name = "Bakgrundsfärg:")]
     public string? Color {get; set;}
 
 

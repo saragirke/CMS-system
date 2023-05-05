@@ -20,7 +20,7 @@ namespace cmsSystem.Controllers
         {
             _context = context;
         }
-
+/*
         // GET: api/ApiMessage
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Message>>> GetMessage()
@@ -79,7 +79,7 @@ namespace cmsSystem.Controllers
             }
 
             return NoContent();
-        }
+        } */
 
         // POST: api/ApiMessage
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
@@ -95,7 +95,7 @@ namespace cmsSystem.Controllers
 
             return CreatedAtAction("GetMessage", new { id = message.Id }, message);
         }
-
+/*
         // DELETE: api/ApiMessage/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteMessage(int id)
@@ -119,6 +119,6 @@ namespace cmsSystem.Controllers
         private bool MessageExists(int id)
         {
             return (_context.Message?.Any(e => e.Id == id)).GetValueOrDefault();
-        }
+        } */
     }
 }

@@ -195,8 +195,7 @@ namespace cmsSystem.Controllers
             {
                 return NotFound();
             }
-
-            var news = await _context.News
+            var news = await _context.News.Include(s => s.Comment)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (news == null)
             {

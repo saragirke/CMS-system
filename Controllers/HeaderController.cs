@@ -22,7 +22,7 @@ namespace cmsSystem.Controllers
 
         //Bilder
         private int HeaderWidth= 1920;
-        private int HeaderHeigth=600;
+        private int HeaderHeigth=200;
 
                 //Bilder
         private int LogoWidth= 250;
@@ -100,7 +100,7 @@ namespace cmsSystem.Controllers
 
                     createHeaderFile(fileName);
                     //Funktion för att ange bildens storlek
-                  //  createLogoFile(fileName2);
+                    //createLogoFile(fileName2);
                    
 
                 }
