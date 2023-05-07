@@ -5,44 +5,54 @@
 }
 
 <h1>Kommentarer</h1>
-<!--
+<!-- 
 <p>
     <a asp-action="Create">Create New</a>
 </p> -->
 <table class="table">
     <thead>
         <tr>
+            <!--
             <th>
                 @Html.DisplayNameFor(model => model.CommentName)
-            </th>
+            </th> -->
             <th>
-                Nyhetsinlägg
+                @Html.DisplayNameFor(model => model.DateCreated)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.CommentPost)
             </th>
+<!--
             <th>
-                @Html.DisplayNameFor(model => model.DateCreated)
-            </th>
+                @Html.DisplayNameFor(model => model.News)
+            </th> -->
             <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <!-- 
             <td>
                 @Html.DisplayFor(modelItem => item.CommentName)
-            </td>
-             <td>
-                @Html.DisplayFor(modelItem => item.News.Title)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CommentPost)
-            </td>
+            </td> -->
             <td>
                 @Html.DisplayFor(modelItem => item.DateCreated)
             </td>
-
+            <td>
+            @if (item.CommentPost.Length >= 50)
+                {
+                    @Html.Raw(item.CommentPost.Substring(0, 50))
+                }
+                else
+                {
+                @Html.Raw(item.CommentPost) //"Html Raw" Gör så att inte html taggar skrivs ut
+                }
+            </td>
+<!--
+            <td>
+                @Html.DisplayFor(modelItem => item.News.Title)
+            </td>-->
             <td>
                 <a asp-action="Details" asp-route-id="@item.Id"><img src="~/icons/file.png" class="icon" alt="knapp för att se detaljer"/></a> 
                 <a asp-action="Delete" asp-route-id="@item.Id"><img src="~/icons/delete.png" class="icon" alt="knapp för radering"/></a>

@@ -4,10 +4,9 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>Widget</h1>
 
 <div>
-    <h4>Widget</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -20,7 +19,7 @@
             @Html.DisplayNameFor(model => model.WidgetText)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.WidgetText)
+            @Html.Raw(@Model.WidgetText.ToString())
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.WidgetColor)
@@ -29,16 +28,10 @@
             @Html.DisplayFor(model => model.WidgetColor)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Color)
+            Uppladdad bild:
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Color)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ImageName)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ImageName)
+           <img decoding="async" src="@("~/imageupload/"+Model.ImageName)" alt="uppladdad bild" asp-append-version="true"  width="280" height="200"/>
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.AltText)

@@ -259,8 +259,7 @@ namespace cmsSystem.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("NewsId")
-                        .IsUnique();
+                    b.HasIndex("NewsId");
 
                     b.ToTable("Comment");
                 });
@@ -414,6 +413,26 @@ namespace cmsSystem.Data.Migrations
                     b.ToTable("Service");
                 });
 
+            modelBuilder.Entity("cmsSystem.Models.Socials", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Facebook")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Instagram")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Linkedin")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Socials");
+                });
+
             modelBuilder.Entity("cmsSystem.Models.Staff", b =>
                 {
                     b.Property<int>("Id")
@@ -563,15 +582,10 @@ namespace cmsSystem.Data.Migrations
             modelBuilder.Entity("cmsSystem.Models.Comment", b =>
                 {
                     b.HasOne("cmsSystem.Models.News", "News")
-                        .WithOne("Comment")
-                        .HasForeignKey("cmsSystem.Models.Comment", "NewsId");
+                        .WithMany()
+                        .HasForeignKey("NewsId");
 
                     b.Navigation("News");
-                });
-
-            modelBuilder.Entity("cmsSystem.Models.News", b =>
-                {
-                    b.Navigation("Comment");
                 });
 #pragma warning restore 612, 618
         }

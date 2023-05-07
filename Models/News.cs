@@ -32,8 +32,12 @@ public class News {
     [Display(Name = "Bild")]
     public IFormFile? ImageFile {get; set;}
 
-   // public IEnumerable<Comment> Comment { get; set; }  = default!;
-   public Comment? Comment {get; set;}
+    //public IEnumerable<Comment> Comment { get; set; } =default!;
+ //   public Comment? Comment {get; set;}
+
+[NotMapped]
+#nullable disable    
+public ICollection<Comment> Comments { get; } 
 }
 
 }
