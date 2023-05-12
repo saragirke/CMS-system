@@ -305,6 +305,9 @@ namespace cmsSystem.Data.Migrations
                     b.Property<string>("ImageName")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Instagram")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("LogoName")
                         .HasColumnType("TEXT");
 

@@ -41,6 +41,9 @@ public class Header {
     [NotMapped] //När en migration görs kommer detta inte skapas i databasen, endast gränssnittet
     [Display(Name = "Logga:")]
     public IFormFile? LogoFile {get; set;}
+
+    [Display (Name = "Instagram :")]
+    public string? Instagram {get; set;}
 }
 
 }
