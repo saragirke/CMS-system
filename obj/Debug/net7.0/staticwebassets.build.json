@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bOzX8hkweyLJoHP0XAlJx4xdB3jTZENZyNpR4ubWvmk=",
+  "Hash": "kYCcqkJvuw1nQV+CH7pn1WgZcRJYQoIbMbJlVltKuuU=",
   "Source": "cmsSystem",
   "BasePath": "_content/cmsSystem",
   "Mode": "Default",
@@ -1156,6 +1156,23 @@
       "OriginalItemSpec": "wwwroot\\icons\\file.png"
     },
     {
+      "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\aneta-pawlik-GJwKzsxUQu4-unsplash231137845.jpg",
+      "SourceId": "cmsSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\",
+      "BasePath": "_content/cmsSystem",
+      "RelativePath": "imageupload/aneta-pawlik-GJwKzsxUQu4-unsplash231137845.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imageupload\\aneta-pawlik-GJwKzsxUQu4-unsplash231137845.jpg"
+    },
+    {
       "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\ashe-walker-oAkQxWccPG0-unsplash231631851.jpg",
       "SourceId": "cmsSystem",
       "SourceType": "Discovered",
@@ -1307,6 +1324,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imageupload\\brooke-lark-C1fMH2Vej8A-unsplash232127658.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\brooke-lark-C1fMH2Vej8A-unsplash234411654.jpg",
+      "SourceId": "cmsSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\",
+      "BasePath": "_content/cmsSystem",
+      "RelativePath": "imageupload/brooke-lark-C1fMH2Vej8A-unsplash234411654.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imageupload\\brooke-lark-C1fMH2Vej8A-unsplash234411654.jpg"
     },
     {
       "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\brooke-lark-V4MBq8kue3U-unsplash231355416.jpg",
@@ -2956,6 +2990,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imageupload\\vinicius-amnx-amano-17NCG_wOkMY-unsplash235214826.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\yukiko-kanada-Ou4CQo6jzvU-unsplash230821818.jpg",
+      "SourceId": "cmsSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\",
+      "BasePath": "_content/cmsSystem",
+      "RelativePath": "imageupload/yukiko-kanada-Ou4CQo6jzvU-unsplash230821818.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imageupload\\yukiko-kanada-Ou4CQo6jzvU-unsplash230821818.jpg"
     },
     {
       "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadbenjamin-wedemeyer-HHx_8m6-YNk-unsplash(1)231836979.jpg",

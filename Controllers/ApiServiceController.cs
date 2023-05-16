@@ -49,7 +49,7 @@ namespace cmsSystem.Controllers
 
             return service;
         }
-
+/*
         // PUT: api/ApiService/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
@@ -79,7 +79,9 @@ namespace cmsSystem.Controllers
             }
 
             return NoContent();
-        }
+        } */
+
+        /*
 
         // POST: api/ApiService
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
@@ -94,7 +96,9 @@ namespace cmsSystem.Controllers
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetService", new { id = service.Id }, service);
-        }
+        } */
+
+        /*
 
         // DELETE: api/ApiService/5
         [HttpDelete("{id}")]
@@ -119,6 +123,6 @@ namespace cmsSystem.Controllers
         private bool ServiceExists(int id)
         {
             return (_context.Service?.Any(e => e.Id == id)).GetValueOrDefault();
-        }
+        } */
     }
 }

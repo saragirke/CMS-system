@@ -50,6 +50,7 @@ namespace cmsSystem.Controllers
             return about;
         }
 
+        /*
         // PUT: api/ApiAbout/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
@@ -79,8 +80,8 @@ namespace cmsSystem.Controllers
             }
 
             return NoContent();
-        }
-
+        } */
+        /*
         // POST: api/ApiAbout
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
@@ -95,7 +96,8 @@ namespace cmsSystem.Controllers
 
             return CreatedAtAction("GetAbout", new { id = about.Id }, about);
         }
-
+*/
+/*
         // DELETE: api/ApiAbout/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAbout(int id)
@@ -119,6 +121,8 @@ namespace cmsSystem.Controllers
         private bool AboutExists(int id)
         {
             return (_context.About?.Any(e => e.Id == id)).GetValueOrDefault();
-        }
+        } 
+*/
+
     }
 }

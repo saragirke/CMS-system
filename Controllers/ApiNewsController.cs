@@ -49,7 +49,7 @@ namespace cmsSystem.Controllers
 
             return news;
         }
-
+/*
         // PUT: api/ApiNews/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
@@ -79,8 +79,8 @@ namespace cmsSystem.Controllers
             }
 
             return NoContent();
-        }
-
+        } */
+/*
         // POST: api/ApiNews
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
@@ -94,7 +94,9 @@ namespace cmsSystem.Controllers
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetNews", new { id = news.Id }, news);
-        }
+        } */
+
+        /*
 
         // DELETE: api/ApiNews/5
         [HttpDelete("{id}")]
@@ -119,6 +121,6 @@ namespace cmsSystem.Controllers
         private bool NewsExists(int id)
         {
             return (_context.News?.Any(e => e.Id == id)).GetValueOrDefault();
-        }
+        } */
     }
 }

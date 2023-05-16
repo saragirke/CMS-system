@@ -50,6 +50,8 @@ namespace cmsSystem.Controllers
             return header;
         }
 
+        /*
+
         // PUT: api/ApiHeader/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
@@ -79,7 +81,9 @@ namespace cmsSystem.Controllers
             }
 
             return NoContent();
-        }
+        } */
+
+        /*
 
         // POST: api/ApiHeader
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
@@ -94,7 +98,9 @@ namespace cmsSystem.Controllers
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetHeader", new { id = header.Id }, header);
-        }
+        } */
+
+        /*
 
         // DELETE: api/ApiHeader/5
         [HttpDelete("{id}")]
@@ -119,6 +125,6 @@ namespace cmsSystem.Controllers
         private bool HeaderExists(int id)
         {
             return (_context.Header?.Any(e => e.Id == id)).GetValueOrDefault();
-        }
+        } */
     }
 }

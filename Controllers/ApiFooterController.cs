@@ -49,7 +49,7 @@ namespace cmsSystem.Controllers
 
             return footer;
         }
-
+/*
         // PUT: api/ApiFooter/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
@@ -79,7 +79,8 @@ namespace cmsSystem.Controllers
             }
 
             return NoContent();
-        }
+        } */
+        /*
 
         // POST: api/ApiFooter
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
@@ -94,7 +95,8 @@ namespace cmsSystem.Controllers
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetFooter", new { id = footer.Id }, footer);
-        }
+        }*/
+        /*
 
         // DELETE: api/ApiFooter/5
         [HttpDelete("{id}")]
@@ -119,6 +121,6 @@ namespace cmsSystem.Controllers
         private bool FooterExists(int id)
         {
             return (_context.Footer?.Any(e => e.Id == id)).GetValueOrDefault();
-        }
+        } */
     }
 }

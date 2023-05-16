@@ -49,7 +49,7 @@ namespace cmsSystem.Controllers
 
             return start;
         }
-
+/*
         // PUT: api/ApiStart/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
@@ -79,7 +79,9 @@ namespace cmsSystem.Controllers
             }
 
             return NoContent();
-        }
+        } */
+
+        /*
 
         // POST: api/ApiStart
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
@@ -94,7 +96,9 @@ namespace cmsSystem.Controllers
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetStart", new { id = start.Id }, start);
-        }
+        } */
+
+        /*
 
         // DELETE: api/ApiStart/5
         [HttpDelete("{id}")]
@@ -119,6 +123,6 @@ namespace cmsSystem.Controllers
         private bool StartExists(int id)
         {
             return (_context.Start?.Any(e => e.Id == id)).GetValueOrDefault();
-        }
+        } */
     }
 }
