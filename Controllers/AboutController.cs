@@ -151,9 +151,17 @@ namespace cmsSystem.Controllers
                     //createImageFile(fileName);
 
                 }
-                else {
-                    about.AboutImage = null;
-                }
+                    else {
+                    if(about.AboutImage != "") 
+                    {
+                       about.AboutImage = about.AboutImage;
+                    }
+                    else 
+                    {
+                        about.AboutImage =null;
+                    }
+
+                  }
 
 
 

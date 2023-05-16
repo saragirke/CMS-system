@@ -9,6 +9,7 @@ using cmsSystem.Data;
 using cmsSystem.Models;
 using LazZiya.ImageResize; // Bilder
 using System.Drawing; // Bilder
+using System.IO;
 
 namespace cmsSystem.Controllers
 {
@@ -21,11 +22,11 @@ namespace cmsSystem.Controllers
            private string wwwRootPath;
 
         //Bilder
-        private int HeaderWidth= 1920;
-        private int HeaderHeigth=200;
+        private int HeaderWidth= 1900;
+        private int HeaderHeigth=300;
 
                 //Bilder
-        private int LogoWidth= 250;
+        private int LogoWidth= 100;
         private int LogoHeigth=100;
 
         public HeaderController(ApplicationDbContext context, IWebHostEnvironment hostEnvironment)
@@ -159,7 +160,7 @@ namespace cmsSystem.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Font, FontColor, SubTitle, NavColor, ImageName,  ImageFile, LogoName, LogoFile")] Header header)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Font, FontColor, SubTitle, NavColor, ImageName,  ImageFile, LogoName, LogoFile, Instagram, Linkedin, Facebook")] Header header)
         {
             if (id != header.Id)
             {
@@ -296,15 +297,14 @@ namespace cmsSystem.Controllers
 
                 //Funktion för header
          
-         private void createHeaderFile(string fileName) {
+private void createHeaderFile(string fileName3)
+{
 
-            using(var img = Image.FromFile(Path.Combine(wwwRootPath + "/imageupload/" , fileName))) {
+            using(var img = Image.FromFile(Path.Combine(wwwRootPath + "/imageupload" , fileName3))) {
               
-               img.Scale(HeaderWidth, HeaderHeigth).SaveAs(Path.Combine(wwwRootPath + "/imageupload" + fileName)); 
+               img.Scale(HeaderWidth, HeaderHeigth).SaveAs(Path.Combine(wwwRootPath + "/imageupload" + fileName3)); 
             } 
-
-
-         }
+}
 
 
          

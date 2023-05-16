@@ -36,7 +36,7 @@
                 <span asp-validation-for="AltText" class="text-danger"></span>
             </div><br>
             <div class="form-group">
-                <input type="submit" value="Lägg till" class="btn btn-primary" />
+                <input type="submit" value="Lägg till" class="btn btn-success" />
             </div>
         </form>
     </div>
@@ -52,7 +52,8 @@
            tinymce.init({
             forced_root_block: false,
                selector: 'textarea#AboutText',
-               entity_encoding : "raw"
+               entity_encoding : "raw",
+                width : "660"
                
            });
        </script>

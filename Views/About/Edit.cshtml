@@ -4,9 +4,9 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<h1>Redigera innehåll</h1>
 
-<h4>About</h4>
+<h4>Om-Oss</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -17,7 +17,7 @@
                 <label asp-for="AboutTitle" class="control-label"></label>
                 <input asp-for="AboutTitle" class="form-control" />
                 <span asp-validation-for="AboutTitle" class="text-danger"></span>
-            </div>
+            </div><br>
               <div class="form-outline mb-4">
       <label class="form-label" asp-for="AboutText"></label>
       <div>
@@ -44,7 +44,7 @@
                 <span asp-validation-for="AltText" class="text-danger"></span>
             </div><br>
             <div class="form-group">
-                <input type="submit" value="Spara" class="btn btn-primary" /> <br>
+                <input type="submit" value="Spara" class="btn btn-success" /> <br>
             </div>
         </form>
     </div>
@@ -60,7 +60,8 @@
            tinymce.init({
             forced_root_block: false,
                selector: 'textarea#AboutText',
-               entity_encoding : "raw"
+               entity_encoding : "raw",
+                width : "660"
                
            });
        </script>

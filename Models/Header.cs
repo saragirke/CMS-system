@@ -44,6 +44,13 @@ public class Header {
 
     [Display (Name = "Instagram :")]
     public string? Instagram {get; set;}
+
+[Display (Name = "Linkedin :")]
+    public string? Linkedin {get; set;}
+
+    
+[Display (Name = "Facebook :")]
+    public string? Facebook {get; set;}
 }
 
 }

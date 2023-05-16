@@ -296,6 +296,9 @@ namespace cmsSystem.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("Facebook")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Font")
                         .HasColumnType("TEXT");
 
@@ -306,6 +309,9 @@ namespace cmsSystem.Data.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Instagram")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Linkedin")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("LogoName")
