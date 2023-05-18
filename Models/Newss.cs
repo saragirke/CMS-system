@@ -1,0 +1,44 @@
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+
+namespace cmsSystem.Models {
+
+public class Newss {
+
+    public int Id {get; set;}
+
+    [Display (Name = "Titel:")]
+    [MaxLength(120, ErrorMessage = "Max 120 tecken")]
+    [Required(ErrorMessage = "Obligatoriskt fält")]
+    public string? Title {get; set;}
+
+  
+    [Display (Name = "Inlägg:")]
+    [Required(ErrorMessage = "Obligatoriskt fält")]
+    public string? Post {get; set;}
+
+    [Display (Name = "Bild:")]
+
+    public string? ImageName {get; set;}
+
+    [Display (Name = "Alt-Text till bild:")]
+    [Required(ErrorMessage = "Obligatoriskt fält")]
+    public string? AltText{get; set;}
+
+    [Display (Name = "Datum:")]
+    [DataType(DataType.Date)]
+    public DateOnly? DateCreated {get; init;} = DateOnly.FromDateTime(DateTime.Now); //Endast Datum
+
+    [NotMapped] //När en migration görs kommer detta inte skapas i databasen, endast gränssnittet
+    [Display(Name = "Bild")]
+    public IFormFile? ImageFile {get; set;}
+
+    //public IEnumerable<Comment> Comment { get; set; } =default!;
+  //public Comment? Comment {get; set;}
+/*
+[NotMapped]
+#nullable disable    
+public ICollection<Comment> Comments { get; set; } = new List<Comment>(); */
+}
+}

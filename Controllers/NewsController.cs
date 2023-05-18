@@ -215,10 +215,18 @@ namespace cmsSystem.Controllers
             {
                 return Problem("Entity set 'ApplicationDbContext.News'  is null.");
             }
-            var news = await _context.News.FindAsync(id);
+
+            //Inkluerar kommentarer för radering
+            var news= await _context.News.Include(s => s.Comments)
+            .FirstOrDefaultAsync(m => m.Id == id);
+
+
             if (news != null)
             {
                 _context.News.Remove(news);
+
+                //Radera nyhetsinläggets kommentarer vid radering av nyhetsinlägg
+                 _context.Comment.RemoveRange(news.Comments);
             }
             
             await _context.SaveChangesAsync();

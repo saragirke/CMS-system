@@ -22,6 +22,7 @@ public class Start {
 
 
     [Display (Name = "Alt-Text till bild:")]
+     [Required(ErrorMessage = "Obligatoriskt fält")]
     public string? AltText{get; set;}
 
 

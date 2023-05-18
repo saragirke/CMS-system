@@ -18,7 +18,7 @@ public class Service {
     public string? Description {get; set;}
 
     [Display (Name = "Pris:")]
-    public int? Price {get; set;}
+    public string? Price {get; set;}
 
 
     [Display (Name = "Bild:")]
@@ -26,6 +26,7 @@ public class Service {
 
 
     [Display (Name = "Alt-Text till bild:")]
+     [Required(ErrorMessage = "Obligatoriskt fält")]
     public string? AltText{get; set;}
 
 

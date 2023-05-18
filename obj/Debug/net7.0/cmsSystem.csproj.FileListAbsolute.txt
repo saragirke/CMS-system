@@ -1,7 +1,6 @@
 C:\Users\maxor\cmsSystem\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\maxor\cmsSystem\bin\Debug\net7.0\appsettings.json
 C:\Users\maxor\cmsSystem\bin\Debug\net7.0\cmsSystem.staticwebassets.runtime.json
-C:\Users\maxor\cmsSystem\bin\Debug\net7.0\app.db
 C:\Users\maxor\cmsSystem\bin\Debug\net7.0\cmsSystem.exe
 C:\Users\maxor\cmsSystem\bin\Debug\net7.0\cmsSystem.deps.json
 C:\Users\maxor\cmsSystem\bin\Debug\net7.0\cmsSystem.runtimeconfig.json
@@ -308,3 +307,4 @@ C:\Users\maxor\cmsSystem\bin\Debug\net7.0\LazZiya.TagHelpers.dll
 C:\Users\maxor\cmsSystem\bin\Debug\net7.0\Syncfusion.Licensing.dll
 C:\Users\maxor\cmsSystem\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\maxor\cmsSystem\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\Users\maxor\cmsSystem\bin\Debug\net7.0\app.db

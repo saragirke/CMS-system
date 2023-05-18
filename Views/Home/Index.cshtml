@@ -2,7 +2,56 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@if (User.Identity.IsAuthenticated) {
+  <h2 title="Manage" class="text-center">Hej,  @User.Identity?.Name!</h2> <br>
+<div class="row">
+  <div class="column">
+    <div class="card">
+<h4>Min webbplats</h4>
+      <a asp-area="" asp-controller="Header" asp-action="Index">Header</a> 
+      <a asp-area="" asp-controller="Footer" asp-action="Index">Footer </a> 
+      <a asp-area="" asp-controller="Start" asp-action="Index">Startsida</a>
+      <a asp-area="" asp-controller="Widget" asp-action="Index">Widget </a>
+      <a asp-area="" asp-controller="About" asp-action="Index">Om Oss</a>
+      <a asp-area="" asp-controller="Staff" asp-action="Index">Personal</a>
+      <a asp-area="" asp-controller="Service" asp-action="Index">Tjänster</a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+        <h4>Nyheter</h4>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+        <h4>Kommentarer</h4>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+        <h4>Meddelanden</h4>
+    </div>
+  </div>
+
 </div>
+
+} else {
+<div class="custom-card">
+    <p>Du måste vara inloggad för att visa detta innehåll. Vänligen logga in för att fortsätta.</p>
+    <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-primary">
+        <i class="fa fa-sign-in" aria-hidden="true"></i>Logga in
+    </a>
+</div>
+
+}
+
+<style>
+    .custom-card {
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #EAF2FA;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+</style>

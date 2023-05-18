@@ -20,6 +20,7 @@ public class Comment {
     [DataType(DataType.Date)]
     public DateOnly? DateCreated {get; init;} = DateOnly.FromDateTime(DateTime.Now); //Endast Datum
 
+    [ForeignKey("News")] 
     public int? NewsId  {get; set;}
     public News? News {get; set;}
 

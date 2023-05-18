@@ -19,9 +19,11 @@ public class News {
     public string? Post {get; set;}
 
     [Display (Name = "Bild:")]
+
     public string? ImageName {get; set;}
 
     [Display (Name = "Alt-Text till bild:")]
+    [Required(ErrorMessage = "Obligatoriskt fält")]
     public string? AltText{get; set;}
 
     [Display (Name = "Datum:")]
@@ -33,11 +35,10 @@ public class News {
     public IFormFile? ImageFile {get; set;}
 
     //public IEnumerable<Comment> Comment { get; set; } =default!;
- //   public Comment? Comment {get; set;}
-
+  //public Comment? Comment {get; set;}
+/*
 [NotMapped]
-#nullable disable    
-public ICollection<Comment> Comments { get; } 
+#nullable disable */    
+public ICollection<Comment> Comments { get; set; } = new List<Comment>(); 
 }
-
 }
