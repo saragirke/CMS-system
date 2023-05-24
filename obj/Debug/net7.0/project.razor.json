@@ -20253,11 +20253,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\maxor\\cmsSystem\\Views\\Newss\\Index.cshtml",
-      "TargetPath": "Views\\Newss\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\maxor\\cmsSystem\\Views\\Footer\\Index.cshtml",
       "TargetPath": "Views\\Footer\\Index.cshtml",
       "FileKind": "mvc"
@@ -20280,11 +20275,6 @@
     {
       "FilePath": "c:\\Users\\maxor\\cmsSystem\\Views\\Service\\Delete.cshtml",
       "TargetPath": "Views\\Service\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maxor\\cmsSystem\\Views\\Newss\\Delete.cshtml",
-      "TargetPath": "Views\\Newss\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20355,11 +20345,6 @@
     {
       "FilePath": "c:\\Users\\maxor\\cmsSystem\\Views\\Message\\Edit.cshtml",
       "TargetPath": "Views\\Message\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maxor\\cmsSystem\\Views\\Newss\\Details.cshtml",
-      "TargetPath": "Views\\Newss\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20483,11 +20468,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\maxor\\cmsSystem\\Views\\Newss\\Create.cshtml",
-      "TargetPath": "Views\\Newss\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\maxor\\cmsSystem\\Views\\News\\Edit.cshtml",
       "TargetPath": "Views\\News\\Edit.cshtml",
       "FileKind": "mvc"
@@ -20525,11 +20505,6 @@
     {
       "FilePath": "c:\\Users\\maxor\\cmsSystem\\Views\\About\\Details.cshtml",
       "TargetPath": "Views\\About\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\maxor\\cmsSystem\\Views\\Newss\\Edit.cshtml",
-      "TargetPath": "Views\\Newss\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {

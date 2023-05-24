@@ -148,26 +148,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maxor/cmsSystem/Views/Newss/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c3NcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/maxor/cmsSystem/Views/Newss/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c3NcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/maxor/cmsSystem/Views/Newss/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c3NcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/maxor/cmsSystem/Views/Newss/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c3NcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/maxor/cmsSystem/Views/Newss/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c3NcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/maxor/cmsSystem/Views/News/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
