@@ -14,7 +14,7 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Title)
+                Titel:
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.SubTitle)
@@ -23,18 +23,18 @@
                 @Html.DisplayNameFor(model => model.Font)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.FontColor)
+                Textfärg:
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.NavColor)
+               Menyfärg:
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ImageName)
+              Header:
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.LogoName)
             </th>
-            <th></th>
+            <th>Hantera:</th>
         </tr>
     </thead>
     <tbody>
@@ -47,7 +47,14 @@
                 @Html.DisplayFor(modelItem => item.SubTitle)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Font)
+               @if (item.Font.Length >= 15)
+                {
+                    @Html.Raw(item.Font.Substring(0, 15))
+                }
+                else
+                {
+                @Html.Raw(item.Font) //"Html Raw" Gör så att inte html taggar skrivs ut
+                }
             </td>
             <td>
                  <div class="listColor" style="background-color: @(@item.FontColor)"></div> 
@@ -59,7 +66,7 @@
             </td>
 
             <td>
-                  <img decoding="async" src="@("~/imageupload/"+item.ImageName)" alt="Miniatyr av uppladdad bild" asp-append-version="true"  width="80" height="60"/>
+                  <img decoding="async" src="@("~/imageupload/"+item.ImageName)" alt="Miniatyr av uppladdad bild" asp-append-version="true"  width="80" height="50"/>
             </td>
             <td>
                   <img decoding="async" src="@("~/imageupload/"+item.LogoName)" alt="Miniatyr av uppladdad bild" asp-append-version="true"  width="60" height="60"/>
