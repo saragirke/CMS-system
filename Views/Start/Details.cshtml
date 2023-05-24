@@ -1,13 +1,13 @@
 @model cmsSystem.Models.Start
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Se innehåll | Startsida";
 }
 
-<h1>Details</h1>
+<h1>Startsidan</h1>
 
 <div>
-    <h4>Start</h4>
+    <h4>Läs innehåll</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -38,7 +38,7 @@
             @Html.DisplayFor(model => model.AltText)
         </dd>
     </dl>
-</div>
+</div><br><br>
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.Id">Redigera</a> |
     <a asp-action="Index">Tillbaka</a>

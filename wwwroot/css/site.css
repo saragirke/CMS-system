@@ -19,7 +19,8 @@ html {
 }
 
 /* Remove extra left and right margins, due to padding in columns */
-.row {margin: 0 -5px;}
+.row {
+  margin: 0 -5px;}
 
 /* Clear floats after the columns */
 .row:after {
@@ -46,15 +47,19 @@ html {
 
 /* Hover-effekt för länkar */
 a:hover {
-  color: #4c39f5; /* Ändra färgen på länken vid hover */
+  color: #2b9b5a; /* Ändra färgen på länken vid hover */
   font-weight: bolder;
   
+}
+
+a {
+  color:black;
 }
 
 
 
 /* Responsive columns - one column layout (vertical) on small screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .column {
     width: 100%;
     display: block;
@@ -64,14 +69,7 @@ a:hover {
 
 
 
-
-
-
-
-
-
-
-tr:nth-child(even) {background-color: #a4d1d225;}
+tr:nth-child(even) {background-color: #7ac9c425;}
 
 .listColor {
   padding:20px;

@@ -1,7 +1,7 @@
 @model cmsSystem.Models.Staff
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Redigera innheåll | Personal ";
 }
 
 <h1>Redigera</h1>
@@ -38,18 +38,18 @@
                  <img decoding="async" src="@("~/imageupload/"+Model.ImageName)" alt="uppladdad bild" asp-append-version="true" width="200" height="200"/><br><br>
                 <input asp-for="ImageName" accept="image/*" class="form-control" /> 
                 <span asp-validation-for="ImageName" class="text-danger"></span> 
-            </div><br>
-            <div class="form-group">
-                <label asp-for="ImageFile"class="control-label"></label>
-                <input asp-for="ImageFile" accept="image/*" class="form-control" />
-                <span asp-validation-for="ImageFile" class="text-danger"></span>
-            </div>
-            <br>
-            <div class="form-group">
+            </div><br>            <div class="form-group">
                 <label asp-for="AltText" class="control-label"></label>
                 <input asp-for="AltText" class="form-control" />
                 <span asp-validation-for="AltText" class="text-danger"></span>
             </div><br>
+            <div class="form-group">
+                <label asp-for="ImageFile"class="control-label">Lägg till ny bild:</label>
+                <input asp-for="ImageFile" accept="image/*" class="form-control" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+            </div>
+            <br>
+
             <div class="form-group">
                 <input type="submit" value="Spara" class="btn btn-success" />
             </div>

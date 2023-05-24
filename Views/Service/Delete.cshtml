@@ -1,10 +1,9 @@
 @model cmsSystem.Models.Service
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Radera tjänst";
 }
 
-<h1>Radering</h1>
 
 <h3>Är du säker på att tjänsten ska raderas?</h3>
 <div>
@@ -47,7 +46,7 @@
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <input type="submit" value="Radera" class="btn btn-danger" /> |
         <a asp-action="Index">Tillbaka</a>
     </form>
 </div>

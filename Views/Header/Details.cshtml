@@ -1,13 +1,12 @@
 @model cmsSystem.Models.Header
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Header";
 }
 
-<h1>Details</h1>
+<h1>Header</h1>
 
 <div>
-    <h4>Header</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -21,22 +20,34 @@
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Font)
+        </dd>        
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FontColor)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FontColor)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NavColor)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NavColor)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.ImageName)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ImageName)
+          <img decoding="async" src="@("~/imageupload/"+Model.ImageName)" alt="uppladdad bild" asp-append-version="true"  width="430" height="200"/>
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.LogoName)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.LogoName)
+           <img decoding="async" src="@("~/imageupload/"+Model.LogoName)" alt="uppladdad bild" asp-append-version="true"  width="50" height="50"/>
         </dd>
     </dl>
-</div>
+</div> <br><br>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Redigera</a> |
+    <a asp-action="Index">Tillbaka</a>
 </div>

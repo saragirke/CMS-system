@@ -1,14 +1,11 @@
 @model cmsSystem.Models.Widget
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Radera Widget";
 }
 
-<h1>Delete</h1>
-
-<h3>Are you sure you want to delete this?</h3>
+<h3>Är du säker på att denna widget ska raderas?</h3>
 <div>
-    <h4>Widget</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -21,7 +18,7 @@
             @Html.DisplayNameFor(model => model.WidgetText)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.WidgetText)
+              @Html.Raw(@Model.WidgetText.ToString())
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.WidgetColor)
@@ -39,7 +36,7 @@
             @Html.DisplayNameFor(model => model.ImageName)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ImageName)
+               <img decoding="async" src="@("~/imageupload/"+Model.ImageName)" alt="uppladdad bild" asp-append-version="true"  width="280" height="200"/>
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.AltText)
@@ -54,10 +51,10 @@
             @Html.DisplayFor(model => model.Display)
         </dd>
     </dl>
-    
+    <br>
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <input type="submit" value="Radera" class="btn btn-danger" /> |
+        <a asp-action="Index">Tillbaka</a>
     </form>
 </div>

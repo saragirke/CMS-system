@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "Hash": "KzesaSSj7Uq2HgyghX0a1dMLa3ponmkwTGAq3AnBceQ=",
+  "Hash": "q6n/9zV5s4RzncrkdS7dH3RZooxK9TN+EfeXscJWTCc=",
   "Source": "cmsSystem",
   "BasePath": "_content/cmsSystem",
   "Mode": "Default",
-  "ManifestType": "Build",
+  "ManifestType": "Publish",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
@@ -1071,40 +1071,6 @@
       "OriginalItemSpec": "C:\\Users\\maxor\\cmsSystem\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\cmsSystem.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\BizPro.png",
-      "SourceId": "cmsSystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\",
-      "BasePath": "_content/cmsSystem",
-      "RelativePath": "BizPro.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\BizPro.png"
-    },
-    {
-      "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\comment.png",
-      "SourceId": "cmsSystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\",
-      "BasePath": "_content/cmsSystem",
-      "RelativePath": "comment.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\comment.png"
-    },
-    {
       "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\css\\site.css",
       "SourceId": "cmsSystem",
       "SourceType": "Discovered",
@@ -1120,40 +1086,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
-    },
-    {
-      "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\email.png",
-      "SourceId": "cmsSystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\",
-      "BasePath": "_content/cmsSystem",
-      "RelativePath": "email.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\email.png"
-    },
-    {
-      "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\favicon.png",
-      "SourceId": "cmsSystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\",
-      "BasePath": "_content/cmsSystem",
-      "RelativePath": "favicon.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
       "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\icons\\add.png",
@@ -3468,23 +3400,6 @@
       "OriginalItemSpec": "wwwroot\\imageupload\\yukiko-kanada-Ou4CQo6jzvU-unsplash230821818.jpg"
     },
     {
-      "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\yukiko-kanada-Ou4CQo6jzvU-unsplash231846669.jpg",
-      "SourceId": "cmsSystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\",
-      "BasePath": "_content/cmsSystem",
-      "RelativePath": "imageupload/yukiko-kanada-Ou4CQo6jzvU-unsplash231846669.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\imageupload\\yukiko-kanada-Ou4CQo6jzvU-unsplash231846669.jpg"
-    },
-    {
       "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadbenjamin-wedemeyer-HHx_8m6-YNk-unsplash(1)231836979.jpg",
       "SourceId": "cmsSystem",
       "SourceType": "Discovered",
@@ -4316,23 +4231,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imageuploadtommy-bond-RXuFr2tPAbI-unsplash235200759.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\internet.png",
-      "SourceId": "cmsSystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\",
-      "BasePath": "_content/cmsSystem",
-      "RelativePath": "internet.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\internet.png"
     },
     {
       "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\jscolor.js",
@@ -6390,40 +6288,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\newspaper.png",
-      "SourceId": "cmsSystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\",
-      "BasePath": "_content/cmsSystem",
-      "RelativePath": "newspaper.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\newspaper.png"
-    },
-    {
-      "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\web-development.png",
-      "SourceId": "cmsSystem",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\",
-      "BasePath": "_content/cmsSystem",
-      "RelativePath": "web-development.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\web-development.png"
     }
   ]
 }

@@ -5,8 +5,24 @@
       "PackagePath": "staticwebassets\\cmsSystem.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\BizPro.png",
+      "PackagePath": "staticwebassets\\BizPro.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\comment.png",
+      "PackagePath": "staticwebassets\\comment.png"
+    },
+    {
       "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\email.png",
+      "PackagePath": "staticwebassets\\email.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
     },
     {
       "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\icons\\add.png",
@@ -329,6 +345,10 @@
       "PackagePath": "staticwebassets\\imageupload\\chuttersnap-aEnH4hJ_Mrs-unsplash231758997.jpg"
     },
     {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\chuttersnap-aEnH4hJ_Mrs-unsplash232800595.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\chuttersnap-aEnH4hJ_Mrs-unsplash232800595.jpg"
+    },
+    {
       "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\city-church-christchurch-ynF4v8W7MIw-unsplash232022011.jpg",
       "PackagePath": "staticwebassets\\imageupload\\city-church-christchurch-ynF4v8W7MIw-unsplash232022011.jpg"
     },
@@ -469,8 +489,16 @@
       "PackagePath": "staticwebassets\\imageupload\\jordan-arnold-Ul07QK2AR-0-unsplash232657890.jpg"
     },
     {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\kelly-jean-TclQHtlkzRc-unsplash(1)233724679.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\kelly-jean-TclQHtlkzRc-unsplash(1)233724679.jpg"
+    },
+    {
       "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\lasse-bergqvist-TYj7ey6xn9M-unsplash230029692.jpg",
       "PackagePath": "staticwebassets\\imageupload\\lasse-bergqvist-TYj7ey6xn9M-unsplash230029692.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\lasse-bergqvist-TYj7ey6xn9M-unsplash233610003.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\lasse-bergqvist-TYj7ey6xn9M-unsplash233610003.jpg"
     },
     {
       "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\lasse-bergqvist-TYj7ey6xn9M-unsplash235212236.jpg",
@@ -629,12 +657,20 @@
       "PackagePath": "staticwebassets\\imageupload\\yukiko-kanada-Ou4CQo6jzvU-unsplash230821818.jpg"
     },
     {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\yukiko-kanada-Ou4CQo6jzvU-unsplash231846669.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\yukiko-kanada-Ou4CQo6jzvU-unsplash231846669.jpg"
+    },
+    {
       "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadbenjamin-wedemeyer-HHx_8m6-YNk-unsplash(1)231836979.jpg",
       "PackagePath": "staticwebassets\\imageuploadbenjamin-wedemeyer-HHx_8m6-YNk-unsplash(1)231836979.jpg"
     },
     {
       "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadbooks234532845.jpg",
       "PackagePath": "staticwebassets\\imageuploadbooks234532845.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadchuttersnap-aEnH4hJ_Mrs-unsplash232800595.jpg",
+      "PackagePath": "staticwebassets\\imageuploadchuttersnap-aEnH4hJ_Mrs-unsplash232800595.jpg"
     },
     {
       "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadedgar-chaparro-BU0CttmE7TA-unsplash231149478.jpg",
@@ -685,6 +721,10 @@
       "PackagePath": "staticwebassets\\imageuploadlasse-bergqvist-TYj7ey6xn9M-unsplash230029692.jpg"
     },
     {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadlasse-bergqvist-TYj7ey6xn9M-unsplash233610003.jpg",
+      "PackagePath": "staticwebassets\\imageuploadlasse-bergqvist-TYj7ey6xn9M-unsplash233610003.jpg"
+    },
+    {
       "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadlasse-bergqvist-TYj7ey6xn9M-unsplash235212236.jpg",
       "PackagePath": "staticwebassets\\imageuploadlasse-bergqvist-TYj7ey6xn9M-unsplash235212236.jpg"
     },
@@ -727,6 +767,10 @@
     {
       "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadtommy-bond-RXuFr2tPAbI-unsplash235200759.jpg",
       "PackagePath": "staticwebassets\\imageuploadtommy-bond-RXuFr2tPAbI-unsplash235200759.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\internet.png",
+      "PackagePath": "staticwebassets\\internet.png"
     },
     {
       "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\jscolor.js",
@@ -1211,6 +1255,14 @@
     {
       "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\newspaper.png",
+      "PackagePath": "staticwebassets\\newspaper.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\web-development.png",
+      "PackagePath": "staticwebassets\\web-development.png"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.cmsSystem.props",
