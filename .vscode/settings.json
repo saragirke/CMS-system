@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/1cb9323b-5319-4ccd-96f0-d257cecff49d/resourceGroups/cmsverktyg_group/providers/Microsoft.Web/sites/cmsverktyg",
+    "appService.deploySubpath": "Publish"
+}

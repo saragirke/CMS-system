@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zhDS039tI1Qdn+BX62KAUkEyyQJORcZ3n66N4SMxUvs=",
+  "Hash": "D34vgYAqF4XzURfZqukWRWTIUUW5CQ52gQHaYcgl+Co=",
   "Source": "cmsSystem",
   "BasePath": "_content/cmsSystem",
   "Mode": "Default",
@@ -1224,6 +1224,23 @@
       "OriginalItemSpec": "wwwroot\\icons\\file.png"
     },
     {
+      "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\aaron-huber-s95oB2n9jng-unsplash233836913.jpg",
+      "SourceId": "cmsSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\",
+      "BasePath": "_content/cmsSystem",
+      "RelativePath": "imageupload/aaron-huber-s95oB2n9jng-unsplash233836913.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imageupload\\aaron-huber-s95oB2n9jng-unsplash233836913.jpg"
+    },
+    {
       "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\aneta-pawlik-GJwKzsxUQu4-unsplash230903007.jpg",
       "SourceId": "cmsSystem",
       "SourceType": "Discovered",
@@ -1562,6 +1579,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imageupload\\callum-hill-oamw52SCGi0-unsplash235803601.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\carbon(35)230002327.png",
+      "SourceId": "cmsSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\",
+      "BasePath": "_content/cmsSystem",
+      "RelativePath": "imageupload/carbon(35)230002327.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imageupload\\carbon(35)230002327.png"
     },
     {
       "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\christina-wocintechchat-com-eF7HN40WbAQ-unsplash232534954.jpg",
@@ -3094,6 +3128,23 @@
       "OriginalItemSpec": "wwwroot\\imageupload\\Skärmbild2023-05-14214625231704575.png"
     },
     {
+      "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Skärmbild2023-05-20213055235425891.png",
+      "SourceId": "cmsSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\",
+      "BasePath": "_content/cmsSystem",
+      "RelativePath": "imageupload/Skärmbild2023-05-20213055235425891.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imageupload\\Skärmbild2023-05-20213055235425891.png"
+    },
+    {
       "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\spacejoy-9M66C_w_ToM-unsplash230049252.jpg",
       "SourceId": "cmsSystem",
       "SourceType": "Discovered",
@@ -3485,6 +3536,23 @@
       "OriginalItemSpec": "wwwroot\\imageupload\\yukiko-kanada-Ou4CQo6jzvU-unsplash231846669.jpg"
     },
     {
+      "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadaaron-huber-s95oB2n9jng-unsplash233836913.jpg",
+      "SourceId": "cmsSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\",
+      "BasePath": "_content/cmsSystem",
+      "RelativePath": "imageuploadaaron-huber-s95oB2n9jng-unsplash233836913.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imageuploadaaron-huber-s95oB2n9jng-unsplash233836913.jpg"
+    },
+    {
       "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadbenjamin-wedemeyer-HHx_8m6-YNk-unsplash(1)231836979.jpg",
       "SourceId": "cmsSystem",
       "SourceType": "Discovered",
@@ -3517,6 +3585,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imageuploadbooks234532845.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadcarbon(35)230002327.png",
+      "SourceId": "cmsSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\",
+      "BasePath": "_content/cmsSystem",
+      "RelativePath": "imageuploadcarbon(35)230002327.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imageuploadcarbon(35)230002327.png"
     },
     {
       "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadchuttersnap-aEnH4hJ_Mrs-unsplash232800595.jpg",
@@ -4248,6 +4333,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imageuploadSkärmbild2023-04-24155220231539602.png"
+    },
+    {
+      "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadSkärmbild2023-05-20213055235425891.png",
+      "SourceId": "cmsSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\",
+      "BasePath": "_content/cmsSystem",
+      "RelativePath": "imageuploadSkärmbild2023-05-20213055235425891.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imageuploadSkärmbild2023-05-20213055235425891.png"
     },
     {
       "Identity": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadspacejoy-9M66C_w_ToM-unsplash230049252.jpg",
