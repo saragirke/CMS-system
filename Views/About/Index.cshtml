@@ -33,7 +33,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.AboutTitle)
             </td>
-            <td>
+            <td title="@Html.Raw(item.AboutText)">
             @if (item.AboutText.Length >= 50)
                 {
                     @Html.Raw(item.AboutText.Substring(0, 50))

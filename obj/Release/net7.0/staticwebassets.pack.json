@@ -1,0 +1,1285 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\cmsSystem.bundle.scp.css",
+      "PackagePath": "staticwebassets\\cmsSystem.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\BizPro.png",
+      "PackagePath": "staticwebassets\\BizPro.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\comment.png",
+      "PackagePath": "staticwebassets\\comment.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\email.png",
+      "PackagePath": "staticwebassets\\email.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\icons\\add.png",
+      "PackagePath": "staticwebassets\\icons\\add.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\icons\\change.png",
+      "PackagePath": "staticwebassets\\icons\\change.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\icons\\delete.png",
+      "PackagePath": "staticwebassets\\icons\\delete.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\icons\\file.png",
+      "PackagePath": "staticwebassets\\icons\\file.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadMax235445999.png",
+      "PackagePath": "staticwebassets\\imageuploadMax235445999.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadMax235454411.png",
+      "PackagePath": "staticwebassets\\imageuploadMax235454411.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadMax235543192.png",
+      "PackagePath": "staticwebassets\\imageuploadMax235543192.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadNewProject(1)230000404.png",
+      "PackagePath": "staticwebassets\\imageuploadNewProject(1)230000404.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadNewProject(1)230046874.png",
+      "PackagePath": "staticwebassets\\imageuploadNewProject(1)230046874.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadNewProject(1)233945867.jpg",
+      "PackagePath": "staticwebassets\\imageuploadNewProject(1)233945867.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadNewProject(1)235140764.png",
+      "PackagePath": "staticwebassets\\imageuploadNewProject(1)235140764.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadNewProject(2)230047057.png",
+      "PackagePath": "staticwebassets\\imageuploadNewProject(2)230047057.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadNewProject(2)234959378.png",
+      "PackagePath": "staticwebassets\\imageuploadNewProject(2)234959378.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadNewProject233907185.jpg",
+      "PackagePath": "staticwebassets\\imageuploadNewProject233907185.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadSkärmbild2023-04-24153636231102459.png",
+      "PackagePath": "staticwebassets\\imageuploadSkärmbild2023-04-24153636231102459.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadSkärmbild2023-04-24153639231605023.png",
+      "PackagePath": "staticwebassets\\imageuploadSkärmbild2023-04-24153639231605023.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadSkärmbild2023-04-24154226231205402.png",
+      "PackagePath": "staticwebassets\\imageuploadSkärmbild2023-04-24154226231205402.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadSkärmbild2023-04-24154229232559621.png",
+      "PackagePath": "staticwebassets\\imageuploadSkärmbild2023-04-24154229232559621.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadSkärmbild2023-04-24154333230331091.png",
+      "PackagePath": "staticwebassets\\imageuploadSkärmbild2023-04-24154333230331091.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadSkärmbild2023-04-24154335231633695.png",
+      "PackagePath": "staticwebassets\\imageuploadSkärmbild2023-04-24154335231633695.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadSkärmbild2023-04-24154506231123841.png",
+      "PackagePath": "staticwebassets\\imageuploadSkärmbild2023-04-24154506231123841.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadSkärmbild2023-04-24154509231713406.png",
+      "PackagePath": "staticwebassets\\imageuploadSkärmbild2023-04-24154509231713406.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadSkärmbild2023-04-24154951231741292.png",
+      "PackagePath": "staticwebassets\\imageuploadSkärmbild2023-04-24154951231741292.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadSkärmbild2023-04-24154951235941251.png",
+      "PackagePath": "staticwebassets\\imageuploadSkärmbild2023-04-24154951235941251.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadSkärmbild2023-04-24155217235604227.png",
+      "PackagePath": "staticwebassets\\imageuploadSkärmbild2023-04-24155217235604227.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadSkärmbild2023-04-24155220231539602.png",
+      "PackagePath": "staticwebassets\\imageuploadSkärmbild2023-04-24155220231539602.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Max235349730.png",
+      "PackagePath": "staticwebassets\\imageupload\\Max235349730.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Max235441014.png",
+      "PackagePath": "staticwebassets\\imageupload\\Max235441014.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Max235445999.png",
+      "PackagePath": "staticwebassets\\imageupload\\Max235445999.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Max235454411.png",
+      "PackagePath": "staticwebassets\\imageupload\\Max235454411.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Max235543192.png",
+      "PackagePath": "staticwebassets\\imageupload\\Max235543192.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\NewProject(1)230000404.png",
+      "PackagePath": "staticwebassets\\imageupload\\NewProject(1)230000404.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\NewProject(1)230046874.png",
+      "PackagePath": "staticwebassets\\imageupload\\NewProject(1)230046874.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\NewProject(1)233945867.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\NewProject(1)233945867.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\NewProject(1)235140764.png",
+      "PackagePath": "staticwebassets\\imageupload\\NewProject(1)235140764.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\NewProject(2)230047057.png",
+      "PackagePath": "staticwebassets\\imageupload\\NewProject(2)230047057.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\NewProject(2)234959378.png",
+      "PackagePath": "staticwebassets\\imageupload\\NewProject(2)234959378.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\NewProject233907185.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\NewProject233907185.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Skärmbild2023-04-24153636231102459.png",
+      "PackagePath": "staticwebassets\\imageupload\\Skärmbild2023-04-24153636231102459.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Skärmbild2023-04-24153639231605023.png",
+      "PackagePath": "staticwebassets\\imageupload\\Skärmbild2023-04-24153639231605023.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Skärmbild2023-04-24154226231205402.png",
+      "PackagePath": "staticwebassets\\imageupload\\Skärmbild2023-04-24154226231205402.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Skärmbild2023-04-24154229232559621.png",
+      "PackagePath": "staticwebassets\\imageupload\\Skärmbild2023-04-24154229232559621.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Skärmbild2023-04-24154333230331091.png",
+      "PackagePath": "staticwebassets\\imageupload\\Skärmbild2023-04-24154333230331091.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Skärmbild2023-04-24154335231633695.png",
+      "PackagePath": "staticwebassets\\imageupload\\Skärmbild2023-04-24154335231633695.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Skärmbild2023-04-24154506231123841.png",
+      "PackagePath": "staticwebassets\\imageupload\\Skärmbild2023-04-24154506231123841.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Skärmbild2023-04-24154509231713406.png",
+      "PackagePath": "staticwebassets\\imageupload\\Skärmbild2023-04-24154509231713406.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Skärmbild2023-04-24154951231741292.png",
+      "PackagePath": "staticwebassets\\imageupload\\Skärmbild2023-04-24154951231741292.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Skärmbild2023-04-24154951235941251.png",
+      "PackagePath": "staticwebassets\\imageupload\\Skärmbild2023-04-24154951235941251.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Skärmbild2023-04-24155217235604227.png",
+      "PackagePath": "staticwebassets\\imageupload\\Skärmbild2023-04-24155217235604227.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Skärmbild2023-04-24155220231539602.png",
+      "PackagePath": "staticwebassets\\imageupload\\Skärmbild2023-04-24155220231539602.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Skärmbild2023-05-03213113234745124.png",
+      "PackagePath": "staticwebassets\\imageupload\\Skärmbild2023-05-03213113234745124.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Skärmbild2023-05-04141227233545063.png",
+      "PackagePath": "staticwebassets\\imageupload\\Skärmbild2023-05-04141227233545063.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Skärmbild2023-05-04160528233844967.png",
+      "PackagePath": "staticwebassets\\imageupload\\Skärmbild2023-05-04160528233844967.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Skärmbild2023-05-04160528234842732.png",
+      "PackagePath": "staticwebassets\\imageupload\\Skärmbild2023-05-04160528234842732.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\Skärmbild2023-05-14214625231704575.png",
+      "PackagePath": "staticwebassets\\imageupload\\Skärmbild2023-05-14214625231704575.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\aneta-pawlik-GJwKzsxUQu4-unsplash230903007.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\aneta-pawlik-GJwKzsxUQu4-unsplash230903007.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\aneta-pawlik-GJwKzsxUQu4-unsplash231137845.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\aneta-pawlik-GJwKzsxUQu4-unsplash231137845.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\ashe-walker-oAkQxWccPG0-unsplash231631851.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\ashe-walker-oAkQxWccPG0-unsplash231631851.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\barthelemy-de-mazenod-b5NWhnBtUJw-unsplash231726994.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\barthelemy-de-mazenod-b5NWhnBtUJw-unsplash231726994.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\benjamin-wedemeyer-HHx_8m6-YNk-unsplash(1)230057783.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\benjamin-wedemeyer-HHx_8m6-YNk-unsplash(1)230057783.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\benjamin-wedemeyer-HHx_8m6-YNk-unsplash(1)231836979.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\benjamin-wedemeyer-HHx_8m6-YNk-unsplash(1)231836979.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\books234532845.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\books234532845.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\brooke-cagle--uHVRvDr7pg-unsplash230047491.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\brooke-cagle--uHVRvDr7pg-unsplash230047491.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\brooke-cagle--uHVRvDr7pg-unsplash235956416.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\brooke-cagle--uHVRvDr7pg-unsplash235956416.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\brooke-lark-C1fMH2Vej8A-unsplash231451556.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\brooke-lark-C1fMH2Vej8A-unsplash231451556.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\brooke-lark-C1fMH2Vej8A-unsplash231721877.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\brooke-lark-C1fMH2Vej8A-unsplash231721877.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\brooke-lark-C1fMH2Vej8A-unsplash232127658.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\brooke-lark-C1fMH2Vej8A-unsplash232127658.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\brooke-lark-C1fMH2Vej8A-unsplash234411654.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\brooke-lark-C1fMH2Vej8A-unsplash234411654.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\brooke-lark-V4MBq8kue3U-unsplash231355416.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\brooke-lark-V4MBq8kue3U-unsplash231355416.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\brooke-lark-V4MBq8kue3U-unsplash232103184.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\brooke-lark-V4MBq8kue3U-unsplash232103184.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\brooke-lark-V4MBq8kue3U-unsplash232157979.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\brooke-lark-V4MBq8kue3U-unsplash232157979.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\brooke-lark-V4MBq8kue3U-unsplash232414248.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\brooke-lark-V4MBq8kue3U-unsplash232414248.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\brooke-lark-V4MBq8kue3U-unsplash232511870.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\brooke-lark-V4MBq8kue3U-unsplash232511870.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\brooke-lark-V4MBq8kue3U-unsplash232734753.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\brooke-lark-V4MBq8kue3U-unsplash232734753.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\callum-hill-oamw52SCGi0-unsplash235803601.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\callum-hill-oamw52SCGi0-unsplash235803601.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\christina-wocintechchat-com-eF7HN40WbAQ-unsplash232534954.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\christina-wocintechchat-com-eF7HN40WbAQ-unsplash232534954.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\christina-wocintechchat-com-eF7HN40WbAQ-unsplash235702994.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\christina-wocintechchat-com-eF7HN40WbAQ-unsplash235702994.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\chuttersnap-aEnH4hJ_Mrs-unsplash231538342.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\chuttersnap-aEnH4hJ_Mrs-unsplash231538342.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\chuttersnap-aEnH4hJ_Mrs-unsplash231616505.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\chuttersnap-aEnH4hJ_Mrs-unsplash231616505.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\chuttersnap-aEnH4hJ_Mrs-unsplash231758997.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\chuttersnap-aEnH4hJ_Mrs-unsplash231758997.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\chuttersnap-aEnH4hJ_Mrs-unsplash232800595.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\chuttersnap-aEnH4hJ_Mrs-unsplash232800595.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\city-church-christchurch-ynF4v8W7MIw-unsplash232022011.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\city-church-christchurch-ynF4v8W7MIw-unsplash232022011.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\city-church-christchurch-ynF4v8W7MIw-unsplash233151856.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\city-church-christchurch-ynF4v8W7MIw-unsplash233151856.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\collov-home-design-4_jQL4JCS98-unsplash233946784.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\collov-home-design-4_jQL4JCS98-unsplash233946784.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\collov-home-design-4_jQL4JCS98-unsplash235930483.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\collov-home-design-4_jQL4JCS98-unsplash235930483.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\damian-zaleski-RYyr-k3Ysqg-unsplash231219133.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\damian-zaleski-RYyr-k3Ysqg-unsplash231219133.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\damian-zaleski-RYyr-k3Ysqg-unsplash233850953.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\damian-zaleski-RYyr-k3Ysqg-unsplash233850953.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\edgar-chaparro-BU0CttmE7TA-unsplash231149478.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\edgar-chaparro-BU0CttmE7TA-unsplash231149478.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\edgar-chaparro-BU0CttmE7TA-unsplash234325942.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\edgar-chaparro-BU0CttmE7TA-unsplash234325942.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\emmanuel-ikwuegbu--0-kl1BjvFc-unsplash230218937.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\emmanuel-ikwuegbu--0-kl1BjvFc-unsplash230218937.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\emmanuel-ikwuegbu--0-kl1BjvFc-unsplash234149106.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\emmanuel-ikwuegbu--0-kl1BjvFc-unsplash234149106.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\etienne-girardet-sgYamIzhAhg-unsplash230346265.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\etienne-girardet-sgYamIzhAhg-unsplash230346265.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\fiska234931274.webp",
+      "PackagePath": "staticwebassets\\imageupload\\fiska234931274.webp"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\frank-zhang-O2ExGqIyvOw-unsplash232112320.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\frank-zhang-O2ExGqIyvOw-unsplash232112320.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\frank-zhang-O2ExGqIyvOw-unsplash233609093.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\frank-zhang-O2ExGqIyvOw-unsplash233609093.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\header2230901647.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\header2230901647.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\header2231255415.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\header2231255415.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\header2235059140.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\header2235059140.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\header2235109164.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\header2235109164.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\header2235142451.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\header2235142451.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\header2235145965.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\header2235145965.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\header2235354515.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\header2235354515.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\header2235639278.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\header2235639278.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\header2235933743.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\header2235933743.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\headerbild230232918.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\headerbild230232918.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\headerbild231103478.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\headerbild231103478.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\headerbild234431872.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\headerbild234431872.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\headerbild235228644.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\headerbild235228644.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\headerbild235718339.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\headerbild235718339.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\headerbild33235941171.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\headerbild33235941171.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\iwood-R5v8Xtc0ecg-unsplash230436509.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\iwood-R5v8Xtc0ecg-unsplash230436509.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\iwood-R5v8Xtc0ecg-unsplash230547288.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\iwood-R5v8Xtc0ecg-unsplash230547288.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\iwood-R5v8Xtc0ecg-unsplash235907754.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\iwood-R5v8Xtc0ecg-unsplash235907754.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\jordan-arnold-Ul07QK2AR-0-unsplash231902441.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\jordan-arnold-Ul07QK2AR-0-unsplash231902441.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\jordan-arnold-Ul07QK2AR-0-unsplash232010160.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\jordan-arnold-Ul07QK2AR-0-unsplash232010160.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\jordan-arnold-Ul07QK2AR-0-unsplash232657890.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\jordan-arnold-Ul07QK2AR-0-unsplash232657890.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\kelly-jean-TclQHtlkzRc-unsplash(1)233724679.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\kelly-jean-TclQHtlkzRc-unsplash(1)233724679.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\lasse-bergqvist-TYj7ey6xn9M-unsplash230029692.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\lasse-bergqvist-TYj7ey6xn9M-unsplash230029692.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\lasse-bergqvist-TYj7ey6xn9M-unsplash233610003.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\lasse-bergqvist-TYj7ey6xn9M-unsplash233610003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\lasse-bergqvist-TYj7ey6xn9M-unsplash235212236.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\lasse-bergqvist-TYj7ey6xn9M-unsplash235212236.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\latte232922027.png",
+      "PackagePath": "staticwebassets\\imageupload\\latte232922027.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\latte234729666.png",
+      "PackagePath": "staticwebassets\\imageupload\\latte234729666.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\louis-hansel-v3OlBE6-fhU-unsplash235952767.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\louis-hansel-v3OlBE6-fhU-unsplash235952767.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\markus-winkler-3hBH-ZuvppU-unsplash230507703.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\markus-winkler-3hBH-ZuvppU-unsplash230507703.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\noah-buscher-x8ZStukS2PM-unsplash232949856.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\noah-buscher-x8ZStukS2PM-unsplash232949856.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\noah-buscher-x8ZStukS2PM-unsplash235622002.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\noah-buscher-x8ZStukS2PM-unsplash235622002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\pudel1234118110.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\pudel1234118110.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\pudel5234053852.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\pudel5234053852.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\pudel8234354051.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\pudel8234354051.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\sander-dalhuisen-NFlyFizf2JU-unsplash231208590.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\sander-dalhuisen-NFlyFizf2JU-unsplash231208590.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\sander-dalhuisen-NFlyFizf2JU-unsplash234604706.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\sander-dalhuisen-NFlyFizf2JU-unsplash234604706.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\sdfs230012817.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\sdfs230012817.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\sdfs230710844.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\sdfs230710844.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\sdfs234048031.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\sdfs234048031.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\sdfs235700268.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\sdfs235700268.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\sdfs235758344.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\sdfs235758344.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\spacejoy-9M66C_w_ToM-unsplash230049252.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\spacejoy-9M66C_w_ToM-unsplash230049252.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\spacejoy-9M66C_w_ToM-unsplash231901610.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\spacejoy-9M66C_w_ToM-unsplash231901610.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\spacejoy-9M66C_w_ToM-unsplash232106839.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\spacejoy-9M66C_w_ToM-unsplash232106839.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\spacejoy-9M66C_w_ToM-unsplash232606291.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\spacejoy-9M66C_w_ToM-unsplash232606291.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\spacejoy-9M66C_w_ToM-unsplash233532284.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\spacejoy-9M66C_w_ToM-unsplash233532284.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\spacejoy-9M66C_w_ToM-unsplash233652816.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\spacejoy-9M66C_w_ToM-unsplash233652816.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\spacejoy-9M66C_w_ToM-unsplash234323744.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\spacejoy-9M66C_w_ToM-unsplash234323744.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\spacejoy-9M66C_w_ToM-unsplash234527260.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\spacejoy-9M66C_w_ToM-unsplash234527260.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\spacejoy-9M66C_w_ToM-unsplash234729373.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\spacejoy-9M66C_w_ToM-unsplash234729373.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\spacejoy-IH7wPsjwomc-unsplash234948387.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\spacejoy-IH7wPsjwomc-unsplash234948387.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\spacejoy-OlFHzNjg9kY-unsplash230400581.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\spacejoy-OlFHzNjg9kY-unsplash230400581.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\spacejoy-OlFHzNjg9kY-unsplash232319036.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\spacejoy-OlFHzNjg9kY-unsplash232319036.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\spacejoy-OlFHzNjg9kY-unsplash234334436.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\spacejoy-OlFHzNjg9kY-unsplash234334436.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\spacejoy-OlFHzNjg9kY-unsplash235211094.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\spacejoy-OlFHzNjg9kY-unsplash235211094.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\spacejoy-YI2YkyaREHk-unsplash232604586.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\spacejoy-YI2YkyaREHk-unsplash232604586.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\spacejoy-YI2YkyaREHk-unsplash235633523.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\spacejoy-YI2YkyaREHk-unsplash235633523.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\tommy-bond-RXuFr2tPAbI-unsplash234310297.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\tommy-bond-RXuFr2tPAbI-unsplash234310297.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\tommy-bond-RXuFr2tPAbI-unsplash235200759.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\tommy-bond-RXuFr2tPAbI-unsplash235200759.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\vinicius-amnx-amano-17NCG_wOkMY-unsplash230225153.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\vinicius-amnx-amano-17NCG_wOkMY-unsplash230225153.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\vinicius-amnx-amano-17NCG_wOkMY-unsplash235214826.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\vinicius-amnx-amano-17NCG_wOkMY-unsplash235214826.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\yukiko-kanada-Ou4CQo6jzvU-unsplash230154940.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\yukiko-kanada-Ou4CQo6jzvU-unsplash230154940.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\yukiko-kanada-Ou4CQo6jzvU-unsplash230821818.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\yukiko-kanada-Ou4CQo6jzvU-unsplash230821818.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageupload\\yukiko-kanada-Ou4CQo6jzvU-unsplash231846669.jpg",
+      "PackagePath": "staticwebassets\\imageupload\\yukiko-kanada-Ou4CQo6jzvU-unsplash231846669.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadbenjamin-wedemeyer-HHx_8m6-YNk-unsplash(1)231836979.jpg",
+      "PackagePath": "staticwebassets\\imageuploadbenjamin-wedemeyer-HHx_8m6-YNk-unsplash(1)231836979.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadbooks234532845.jpg",
+      "PackagePath": "staticwebassets\\imageuploadbooks234532845.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadchuttersnap-aEnH4hJ_Mrs-unsplash232800595.jpg",
+      "PackagePath": "staticwebassets\\imageuploadchuttersnap-aEnH4hJ_Mrs-unsplash232800595.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadedgar-chaparro-BU0CttmE7TA-unsplash231149478.jpg",
+      "PackagePath": "staticwebassets\\imageuploadedgar-chaparro-BU0CttmE7TA-unsplash231149478.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadedgar-chaparro-BU0CttmE7TA-unsplash234325942.jpg",
+      "PackagePath": "staticwebassets\\imageuploadedgar-chaparro-BU0CttmE7TA-unsplash234325942.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploademmanuel-ikwuegbu--0-kl1BjvFc-unsplash234149106.jpg",
+      "PackagePath": "staticwebassets\\imageuploademmanuel-ikwuegbu--0-kl1BjvFc-unsplash234149106.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadheader2230901647.jpg",
+      "PackagePath": "staticwebassets\\imageuploadheader2230901647.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadheader2235109164.jpg",
+      "PackagePath": "staticwebassets\\imageuploadheader2235109164.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadheader2235142451.jpg",
+      "PackagePath": "staticwebassets\\imageuploadheader2235142451.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadheaderbild234431872.jpg",
+      "PackagePath": "staticwebassets\\imageuploadheaderbild234431872.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadheaderbild235228644.jpg",
+      "PackagePath": "staticwebassets\\imageuploadheaderbild235228644.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadheaderbild235718339.jpg",
+      "PackagePath": "staticwebassets\\imageuploadheaderbild235718339.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadheaderbild33235941171.jpg",
+      "PackagePath": "staticwebassets\\imageuploadheaderbild33235941171.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadiwood-R5v8Xtc0ecg-unsplash230547288.jpg",
+      "PackagePath": "staticwebassets\\imageuploadiwood-R5v8Xtc0ecg-unsplash230547288.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadlasse-bergqvist-TYj7ey6xn9M-unsplash230029692.jpg",
+      "PackagePath": "staticwebassets\\imageuploadlasse-bergqvist-TYj7ey6xn9M-unsplash230029692.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadlasse-bergqvist-TYj7ey6xn9M-unsplash233610003.jpg",
+      "PackagePath": "staticwebassets\\imageuploadlasse-bergqvist-TYj7ey6xn9M-unsplash233610003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadlasse-bergqvist-TYj7ey6xn9M-unsplash235212236.jpg",
+      "PackagePath": "staticwebassets\\imageuploadlasse-bergqvist-TYj7ey6xn9M-unsplash235212236.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadlatte234729666.png",
+      "PackagePath": "staticwebassets\\imageuploadlatte234729666.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadlouis-hansel-v3OlBE6-fhU-unsplash235952767.jpg",
+      "PackagePath": "staticwebassets\\imageuploadlouis-hansel-v3OlBE6-fhU-unsplash235952767.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadnoah-buscher-x8ZStukS2PM-unsplash232949856.jpg",
+      "PackagePath": "staticwebassets\\imageuploadnoah-buscher-x8ZStukS2PM-unsplash232949856.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadnoah-buscher-x8ZStukS2PM-unsplash235622002.jpg",
+      "PackagePath": "staticwebassets\\imageuploadnoah-buscher-x8ZStukS2PM-unsplash235622002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadpudel1234118110.jpg",
+      "PackagePath": "staticwebassets\\imageuploadpudel1234118110.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadpudel8234354051.jpg",
+      "PackagePath": "staticwebassets\\imageuploadpudel8234354051.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadspacejoy-9M66C_w_ToM-unsplash230049252.jpg",
+      "PackagePath": "staticwebassets\\imageuploadspacejoy-9M66C_w_ToM-unsplash230049252.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadspacejoy-OlFHzNjg9kY-unsplash230400581.jpg",
+      "PackagePath": "staticwebassets\\imageuploadspacejoy-OlFHzNjg9kY-unsplash230400581.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadtommy-bond-RXuFr2tPAbI-unsplash234310297.jpg",
+      "PackagePath": "staticwebassets\\imageuploadtommy-bond-RXuFr2tPAbI-unsplash234310297.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\imageuploadtommy-bond-RXuFr2tPAbI-unsplash235200759.jpg",
+      "PackagePath": "staticwebassets\\imageuploadtommy-bond-RXuFr2tPAbI-unsplash235200759.jpg"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\internet.png",
+      "PackagePath": "staticwebassets\\internet.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\jscolor.js",
+      "PackagePath": "staticwebassets\\js\\jscolor.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\icons\\default\\icons.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\icons\\default\\icons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\langs\\README.md",
+      "PackagePath": "staticwebassets\\js\\tinymce\\langs\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\license.txt",
+      "PackagePath": "staticwebassets\\js\\tinymce\\license.txt"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\models\\dom\\model.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\models\\dom\\model.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\advlist\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\advlist\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\anchor\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\anchor\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\autolink\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\autolink\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\autoresize\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\autoresize\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\autosave\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\autosave\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\charmap\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\charmap\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\code\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\code\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\codesample\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\codesample\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\directionality\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\directionality\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\emoticons\\js\\emojiimages.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\emoticons\\js\\emojiimages.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\emoticons\\js\\emojis.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\emoticons\\js\\emojis.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\emoticons\\js\\emojis.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\emoticons\\js\\emojis.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\emoticons\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\emoticons\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\fullscreen\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\fullscreen\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\help\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\help\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\image\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\image\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\importcss\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\importcss\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\insertdatetime\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\insertdatetime\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\link\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\link\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\lists\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\lists\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\media\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\media\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\nonbreaking\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\nonbreaking\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\pagebreak\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\pagebreak\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\preview\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\preview\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\quickbars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\quickbars\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\save\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\save\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\searchreplace\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\searchreplace\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\table\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\table\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\template\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\template\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\visualblocks\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\visualblocks\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\visualchars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\visualchars\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\plugins\\wordcount\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\wordcount\\plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\skins\\content\\dark\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\content\\dark\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\skins\\content\\default\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\content\\default\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\skins\\content\\document\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\content\\document\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\skins\\content\\tinymce-5-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\content\\tinymce-5-dark\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\skins\\content\\tinymce-5\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\content\\tinymce-5\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\skins\\content\\writer\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\content\\writer\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\skins\\ui\\oxide-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide-dark\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\skins\\ui\\oxide\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide\\content.inline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\skins\\ui\\oxide\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\skins\\ui\\oxide\\skin.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide\\skin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5\\content.inline.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5\\content.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5\\skin.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5\\skin.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\themes\\silver\\theme.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\themes\\silver\\theme.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\tinymce.d.ts",
+      "PackagePath": "staticwebassets\\js\\tinymce\\tinymce.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\js\\tinymce\\tinymce.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\tinymce.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\newspaper.png",
+      "PackagePath": "staticwebassets\\newspaper.png"
+    },
+    {
+      "Id": "C:\\Users\\maxor\\cmsSystem\\wwwroot\\web-development.png",
+      "PackagePath": "staticwebassets\\web-development.png"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.cmsSystem.props",
+      "PackagePath": "build\\cmsSystem.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.cmsSystem.props",
+      "PackagePath": "buildMultiTargeting\\cmsSystem.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.cmsSystem.props",
+      "PackagePath": "buildTransitive\\cmsSystem.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.cmsSystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
