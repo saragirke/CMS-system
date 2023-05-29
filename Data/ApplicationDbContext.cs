@@ -12,7 +12,7 @@ public class ApplicationDbContext : IdentityDbContext
     }
 
      public DbSet<News> News { get; set; }  = default!;
-          public DbSet<Newss> Newss { get; set; }  = default!;
+          //public DbSet<Newss> Newss { get; set; }  = default!;
      public DbSet<About> About { get; set; }  = default!;
      public DbSet<Comment> Comment { get; set; }  = default!;
      public DbSet<Footer> Footer { get; set; }  = default!;
