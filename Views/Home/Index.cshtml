@@ -1,15 +1,14 @@
 ﻿
 
-
 @{
     ViewData["Title"] = "Hem";
 }
 
 @if (User.Identity.IsAuthenticated) {
+  <div class="container">
   <h1 title="Manage" class="text-center">Hej,  @User.Identity?.Name!</h1> <br>
+  
 <div class="row">
-
-
 
   <div class="column">
       <a asp-area="" asp-controller="Message" asp-action="Index">
@@ -52,20 +51,7 @@
 
 </div>
 <br>
-<!-- 
-  <div class="column">
-    <div class="card"> 
-<h2><a href="https://cmswebbplats.vercel.app/" target="_blank">Min webbplats</a></h2>
-      <a asp-area="" asp-controller="Header" asp-action="Index">Header</a> 
-      <a asp-area="" asp-controller="Footer" asp-action="Index">Footer </a> 
-      <a asp-area="" asp-controller="Start" asp-action="Index">Startsida</a>
-      <a asp-area="" asp-controller="Widget" asp-action="Index">Widget </a>
-      <a asp-area="" asp-controller="About" asp-action="Index">Om Oss</a>
-      <a asp-area="" asp-controller="Staff" asp-action="Index">Personal</a>
-      <a asp-area="" asp-controller="Service" asp-action="Index">Tjänster</a>
-    </div>
-  </div>    -->
-
+</div>
 
 } else {
 <div class="custom-card">
@@ -85,12 +71,18 @@
         background-color: #EAF2FA;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         text-align: center;
+
+    }
+
+    .row {
+         position: relative;
+         z-index: -1; 
     }
 
 
   .card img {
     margin: auto; /* Centrera img-taggen horisontellt */
-    display: block; /* För att ta bort eventuellt överflödigt utrymme runt bilden */
+    display: block;  /*För att ta bort eventuellt överflödigt utrymme runt bilden */
     width:18%;
     
   }

@@ -85,7 +85,7 @@ else
      
      <div class="menu">
        @if (SignInManager.IsSignedIn(User)) {
-       <div class="item"><a href="#"><i class="fa fa-home"></i>Hem</a></div>
+       <div class="item"><a asp-area="" asp-controller="Home" asp-action="Index"><i class="fa fa-home"></i>Hem</a></div>
 
        <div class="item"><a asp-area="" asp-controller="Comment" asp-action="Index"><i class="fa fa-comment" aria-hidden="true"></i>Kommentarer</a></div>
 
@@ -98,10 +98,13 @@ else
          <div class="sub-menu">
            <a asp-area="" asp-controller="Header" asp-action="Index">Header </a>
            <a asp-area="" asp-controller="Footer" asp-action="Index">Footer </a>
-           <a href="#" class="sub-item">Startsida</a>
+          <a asp-area="" asp-controller="Start" asp-action="Index">Startsida</a>
+           <a asp-area="" asp-controller="Widget" asp-action="Index">Widget </a>
            <a asp-area="" asp-controller="About" asp-action="Index">Om Oss</a>
            <a asp-area="" asp-controller="Service" asp-action="Index">Header </a>
-           <a asp-area="" asp-controller="Widget" asp-action="Index">Widget </a>
+          <a asp-area="" asp-controller="Staff" asp-action="Index">Personal</a>
+          <a asp-area="" asp-controller="Service" asp-action="Index">Tjänster</a>
+   
          </div>
        </div>
         <div class="item">
