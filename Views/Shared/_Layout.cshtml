@@ -74,16 +74,14 @@ else
      <i class="fas fa-bars"></i>
    </div>
 
-
    <div class="side-bar">
      <div class="close-btn">
-
        <i class="fas fa-times"></i>
      </div>
      <img class="navpic" src="~/BizPro.png" alt="Logga för BizPro Studio">
           <h1></h1>
      
-     <div class="menu">
+     <div class="menu" style="position: relative; z-index: 0;">
        @if (SignInManager.IsSignedIn(User)) {
        <div class="item"><a asp-area="" asp-controller="Home" asp-action="Index"><i class="fa fa-home"></i>Hem</a></div>
 
@@ -164,7 +162,10 @@ else
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
+
 </html>
+
 
 
 

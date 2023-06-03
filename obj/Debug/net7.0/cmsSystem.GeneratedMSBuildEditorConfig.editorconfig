@@ -9,269 +9,269 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = cmsSystem
 build_property.RootNamespace = cmsSystem
-build_property.ProjectDir = c:\Users\maxor\cmsSystem\
+build_property.ProjectDir = C:\Users\maxor\cmsSystem\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\maxor\cmsSystem
+build_property.MSBuildProjectDirectory = C:\Users\maxor\cmsSystem
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/maxor/cmsSystem/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/maxor/cmsSystem/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/maxor/cmsSystem/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/maxor/cmsSystem/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/maxor/cmsSystem/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/maxor/cmsSystem/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/maxor/cmsSystem/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/About/Create.cshtml]
+[C:/Users/maxor/cmsSystem/Views/About/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/About/Delete.cshtml]
+[C:/Users/maxor/cmsSystem/Views/About/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/About/Details.cshtml]
+[C:/Users/maxor/cmsSystem/Views/About/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/About/Edit.cshtml]
+[C:/Users/maxor/cmsSystem/Views/About/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/About/Index.cshtml]
+[C:/Users/maxor/cmsSystem/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Comment/Create.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Comment/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Comment/Delete.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Comment/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Comment/Details.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Comment/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Comment/Edit.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Comment/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Comment/Index.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Comment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Footer/Create.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Footer/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vdGVyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Footer/Delete.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Footer/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vdGVyXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Footer/Details.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Footer/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vdGVyXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Footer/Edit.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Footer/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vdGVyXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Footer/Index.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Footer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vdGVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Header/Create.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Header/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhZGVyXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Header/Delete.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Header/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhZGVyXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Header/Details.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Header/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhZGVyXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Header/Edit.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Header/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhZGVyXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Header/Index.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Header/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVhZGVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Home/Index.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Home/Privacy.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Message/Create.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Message/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Message/Delete.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Message/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Message/Details.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Message/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Message/Edit.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Message/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Message/Index.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Message/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/News/Create.cshtml]
+[C:/Users/maxor/cmsSystem/Views/News/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/News/Delete.cshtml]
+[C:/Users/maxor/cmsSystem/Views/News/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/News/Details.cshtml]
+[C:/Users/maxor/cmsSystem/Views/News/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/News/Edit.cshtml]
+[C:/Users/maxor/cmsSystem/Views/News/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/News/Index.cshtml]
+[C:/Users/maxor/cmsSystem/Views/News/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Service/Create.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Service/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Service/Delete.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Service/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Service/Details.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Service/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Service/Edit.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Service/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Service/Index.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Service/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Shared/Error.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Shared/shit.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Shared/shit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXHNoaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Staff/Create.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Staff/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Staff/Delete.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Staff/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Staff/Details.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Staff/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Staff/Edit.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Staff/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Staff/Index.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Staff/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhZmZcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Start/Create.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Start/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhcnRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Start/Delete.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Start/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhcnRcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Start/Details.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Start/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhcnRcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Start/Edit.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Start/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhcnRcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Start/Index.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Start/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhcnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Widget/Create.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Widget/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lkZ2V0XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Widget/Delete.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Widget/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lkZ2V0XERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Widget/Details.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Widget/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lkZ2V0XERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Widget/Edit.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Widget/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lkZ2V0XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Widget/Index.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Widget/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2lkZ2V0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/_ViewImports.cshtml]
+[C:/Users/maxor/cmsSystem/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/_ViewStart.cshtml]
+[C:/Users/maxor/cmsSystem/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/maxor/cmsSystem/Views/Shared/_Layout.cshtml]
+[C:/Users/maxor/cmsSystem/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-6uuo3ozgcf

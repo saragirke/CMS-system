@@ -5,62 +5,58 @@
 }
 
 @if (User.Identity.IsAuthenticated) {
-  <div class="container">
-  <h1 title="Manage" class="text-center">Hej,  @User.Identity?.Name!</h1> <br>
-  
-<div class="row">
+    <div class="container">
+        <h1 title="Manage" class="text-center">Hej, @User.Identity?.Name!</h1> <br>
 
-  <div class="column">
-      <a asp-area="" asp-controller="Message" asp-action="Index">
-    <div class="card">
+        <div class="row">
 
-      <h2>Meddelanden</h2>
-      <img src="/email.png" alt="Bildbeskrivning">
-    </div>  </a>
-  </div>       
 
-  
+          
+            <div class="column">
+                <a asp-area="" asp-controller="Message" asp-action="Index" class="card-link">
+                    <div class="card">
+                        <h2>Meddelanden</h2>
+                        <img src="/email.png" alt="Bildbeskrivning">
+                    </div>
+                </a>
+            </div>
 
-  <div class="column">
-      <a asp-area="" asp-controller="News" asp-action="Index">
-    <div class="card">
-      <h2>Nyheter</h2>
-       <img src="/newspaper.png" alt="Bildbeskrivning">
+            <div class="column">
+                <a asp-area="" asp-controller="News" asp-action="Index" class="card-link">
+                    <div class="card">
+                        <h2>Nyheter</h2>
+                        <img src="/newspaper.png" alt="Bildbeskrivning">
+                    </div>
+                </a>
+            </div>
+
+            <div class="column">
+                <a asp-area="" asp-controller="Comment" asp-action="Index" class="card-link">
+                    <div class="card">
+                        <h2>Kommentarer</h2>
+                        <img src="/comment.png" alt="Bildbeskrivning">
+                    </div>
+                </a>
+            </div>
+
+            <div class="column">
+                <a href="https://cmswebbplats.vercel.app/" target="_blank" class="card-link">
+                    <div class="card">
+                        <h2>Till min webbplats</h2>
+                        <img src="/web-development.png" alt="Bildbeskrivning">
+                    </div>
+                </a>
+            </div>
+        </div>
+        <br>
     </div>
-    </a>
-  </div>
-
-
-  <div class="column">
-     <a asp-area="" asp-controller="Comment" asp-action="Index">
-    <div class="card">
-        <h2>Kommentarer</h2>
-        <img src="/comment.png" alt="Bildbeskrivning"> 
-    </div>
-     </a>
-  </div>
-
-    <div class="column">
-     <a href="https://cmswebbplats.vercel.app/" target="_blank">
-    <div class="card">
-        <h2>Till min webbplats</h2>
-        <img src="/web-development.png" alt="Bildbeskrivning"> 
-    </div>
-     </a>
-  </div>
-
-</div>
-<br>
-</div>
-
 } else {
-<div class="custom-card">
-    <p>Du måste vara inloggad för att visa detta innehåll. Vänligen logga in för att fortsätta.</p>
-    <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-primary">
-        <i class="fa fa-sign-in" aria-hidden="true"></i>Logga in
-    </a>
-</div>
-
+    <div class="custom-card">
+        <p>Du måste vara inloggad för att visa detta innehåll. Vänligen logga in för att fortsätta.</p>
+        <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-success">
+            <i class="fa fa-sign-in" aria-hidden="true"></i>Logga in
+        </a>
+    </div>
 }
 
 <style>
@@ -74,10 +70,10 @@
 
     }
 
-    .row {
+    .card {
          position: relative;
          z-index: -1; 
-    }
+    }  
 
 
   .card img {
