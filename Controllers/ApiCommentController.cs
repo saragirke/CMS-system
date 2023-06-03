@@ -32,23 +32,20 @@ namespace cmsSystem.Controllers
             return await _context.Comment.ToListAsync();
         }
 
-        // GET: api/ApiComment/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Comment>> GetComment(int id)
-        {
-          if (_context.Comment == null)
-          {
-              return NotFound();
-          }
-            var comment = await _context.Comment.FindAsync(id);
+// GET: api/ApiComment/ByNews/{newsId}
+[HttpGet("{newsId}")]
+public async Task<ActionResult<IEnumerable<Comment>>> GetCommentsByNews(int newsId)
+{
+    //Hämtar kommentarer som tillhör nyhetsinlägget
+    var comments = await _context.Comment.Where(c => c.NewsId == newsId).ToListAsync();
 
-            if (comment == null)
-            {
-                return NotFound();
-            }
+    if (comments == null || comments.Count == 0)
+    {
+        return NotFound();
+    }
 
-            return comment;
-        }
+    return comments;
+}
 /*
         // PUT: api/ApiComment/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754

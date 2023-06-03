@@ -9,7 +9,6 @@ using cmsSystem.Data;
 using cmsSystem.Models;
 using LazZiya.ImageResize; // Bilder
 using System.Drawing; // Bilder
-using System.IO;
 
 namespace cmsSystem.Controllers
 {
@@ -22,8 +21,8 @@ namespace cmsSystem.Controllers
            private string wwwRootPath;
 
         //Bilder
-        private int HeaderWidth= 1900;
-        private int HeaderHeigth=300;
+        private int HeaderWidth= 1600;
+        private int HeaderHeigth=400;
 
                 //Bilder
         private int LogoWidth= 100;
@@ -294,7 +293,7 @@ namespace cmsSystem.Controllers
           return (_context.Header?.Any(e => e.Id == id)).GetValueOrDefault();
         }
 
-
+/*
                 //Funktion för header
          
 private void createHeaderFile(string fileName3)
@@ -304,9 +303,30 @@ private void createHeaderFile(string fileName3)
               
                img.Scale(HeaderWidth, HeaderHeigth).SaveAs(Path.Combine(wwwRootPath + "/imageupload" + fileName3)); 
             } 
+} */
+
+
+private void createHeaderFile(string fileName)
+{
+    var timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+    var uniqueFileName = $"{Path.GetFileNameWithoutExtension(fileName)}_{timestamp}{Path.GetExtension(fileName)}";
+
+    using (var img = System.Drawing.Image.FromFile(Path.Combine(wwwRootPath + "/imageupload/", fileName)))
+    {
+        var resizedImage = new System.Drawing.Bitmap(HeaderWidth, HeaderHeigth);
+        using (var graphics = System.Drawing.Graphics.FromImage(resizedImage))
+        {
+            graphics.DrawImage(img, 0, 0, HeaderWidth, HeaderHeigth);
+        }
+
+        var filePath = Path.Combine(wwwRootPath, "imageupload", uniqueFileName);
+        using (var fs = new FileStream(filePath, FileMode.Create))
+        {
+            resizedImage.Save(fs, System.Drawing.Imaging.ImageFormat.Png);
+        }
+    }
 }
-
-
+/*
          
                 //Funktion för Logga
          
@@ -314,10 +334,34 @@ private void createHeaderFile(string fileName3)
 
             using(var img = Image.FromFile(Path.Combine(wwwRootPath + "/imageupload/" , fileName2))) {
               
-               img.Scale(LogoWidth, LogoHeigth).SaveAs(Path.Combine(wwwRootPath + "/imageupload" + fileName2)); 
+               img.Scale(LogoWidth, LogoHeigth).SaveAs(Path.Combine(wwwRootPath + "imageupload" + fileName2)); 
             } 
 
 
          } 
+
+
+*/
+
+         private void createLogoFile(string fileName)
+{
+    var timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+    var uniqueFileName = $"{Path.GetFileNameWithoutExtension(fileName)}_{timestamp}{Path.GetExtension(fileName)}";
+
+    using (var img = System.Drawing.Image.FromFile(Path.Combine(wwwRootPath + "/imageupload/", fileName)))
+    {
+        var resizedImage = new System.Drawing.Bitmap(LogoWidth, LogoHeigth);
+        using (var graphics = System.Drawing.Graphics.FromImage(resizedImage))
+        {
+            graphics.DrawImage(img, 0, 0, LogoWidth, LogoHeigth);
+        }
+
+        var filePath = Path.Combine(wwwRootPath, "imageupload", uniqueFileName);
+        using (var fs = new FileStream(filePath, FileMode.Create))
+        {
+            resizedImage.Save(fs, System.Drawing.Imaging.ImageFormat.Png);
+        }
+    }
+}
     }
 }

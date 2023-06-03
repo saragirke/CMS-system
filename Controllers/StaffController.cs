@@ -231,6 +231,7 @@ namespace cmsSystem.Controllers
           return (_context.Staff?.Any(e => e.Id == id)).GetValueOrDefault();
         }
 
+/*
         //Funktion för bilder
          
          private void createImageFile(string fileName) {
@@ -241,7 +242,29 @@ namespace cmsSystem.Controllers
             } 
 
 
-         }
+         } */
+
+
+         private void createImageFile(string fileName)
+{
+    var timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+    var uniqueFileName = $"{Path.GetFileNameWithoutExtension(fileName)}_{timestamp}{Path.GetExtension(fileName)}";
+
+    using (var img = System.Drawing.Image.FromFile(Path.Combine(wwwRootPath + "/imageupload/", fileName)))
+    {
+        var resizedImage = new System.Drawing.Bitmap(ImageWidth, ImageHeigth);
+        using (var graphics = System.Drawing.Graphics.FromImage(resizedImage))
+        {
+            graphics.DrawImage(img, 0, 0, ImageWidth, ImageHeigth);
+        }
+
+        var filePath = Path.Combine(wwwRootPath, "imageupload", uniqueFileName);
+        using (var fs = new FileStream(filePath, FileMode.Create))
+        {
+            resizedImage.Save(fs, System.Drawing.Imaging.ImageFormat.Png);
+        }
+    }
+}
 
 
     }

@@ -313,8 +313,3 @@ C:\Users\maxor\cmsSystem\bin\Debug\net7.0\Publish\appsettings.Development.json
 C:\Users\maxor\cmsSystem\bin\Debug\net7.0\Publish\appsettings.json
 C:\Users\maxor\cmsSystem\bin\Debug\net7.0\Publish\cmsSystem.deps.json
 C:\Users\maxor\cmsSystem\bin\Debug\net7.0\Publish\cmsSystem.runtimeconfig.json
-C:\Users\maxor\cmsSystem\bin\Debug\net7.0\Publish\Publish\web.config
-C:\Users\maxor\cmsSystem\bin\Debug\net7.0\Publish\Publish\appsettings.Development.json
-C:\Users\maxor\cmsSystem\bin\Debug\net7.0\Publish\Publish\appsettings.json
-C:\Users\maxor\cmsSystem\bin\Debug\net7.0\Publish\Publish\cmsSystem.deps.json
-C:\Users\maxor\cmsSystem\bin\Debug\net7.0\Publish\Publish\cmsSystem.runtimeconfig.json
